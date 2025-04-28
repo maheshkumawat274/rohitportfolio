@@ -1,4 +1,4 @@
-import React from 'react'
+
 import AboutHero from '../../components/about/AboutHero'
 import Section4 from '../../components/home/Section4'
 
