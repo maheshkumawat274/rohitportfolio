@@ -18,7 +18,7 @@ const podcasts = [
 const Podcast: React.FC = () => {
   return (
     <section className="max-w-6xl mx-auto px-4 py-16">
-      <h1 className="text-3xl font-bold text-white mb-8">All Podcast Episodes</h1>
+      <h1 className="text-3xl font-bold text-white mb-8 ">All Podcast Episodes</h1>
       <div className="grid gap-10 md:grid-cols-3">
         {podcasts.map((p, idx) => (
           <div key={idx} className="bg-[#232323] rounded-2xl p-5 shadow-md flex flex-col">

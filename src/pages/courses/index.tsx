@@ -1,9 +1,13 @@
+import Courses from "../../components/courses/Courses"
+import Section5 from "../../components/home/Section5"
 
-import Courses from '../../components/courses/Courses'
 
 const Coursespage = () => {
   return (
-    <div><Courses/></div>
+    <div >
+      <Courses/>
+      <Section5/>
+    </div>
   )
 }
 

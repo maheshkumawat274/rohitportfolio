@@ -25,7 +25,7 @@ const stats = [
 
 const Section6: React.FC = () => (
   <section className="bg-gradient-to-br from-green-700 to-green-100 py-16 px-6">
-    <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-black">
+    <div className="max-w-7xl py-16 mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-black">
       {stats.map(({ value, title, description }) => (
         <div key={title} className="flex flex-col">
           <span className="text-5xl md:text-6xl font-bold leading-tight">

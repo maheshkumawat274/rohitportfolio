@@ -85,7 +85,7 @@ const PodcastVideos: React.FC = () => (
       </div>
     </div>
     <div className='text-center pt-14'>
-      <a href='https://www.youtube.com/@therohitprashar' className='bg-transparent border border-[#1ec258] hover:bg-[#1ec258] hover:text-white text-[#1ec258] font-bold py-3 px-8 rounded-full text-xl'>Watch More Podcast on Youtube</a>
+      <a href='https://www.youtube.com/@therohitprashar' className='bg-transparent border border-[#1ec258] hover:bg-[#1ec258] hover:text-white text-[#1ec258] font-bold py-3 px-8 rounded-full text-xl'>Watch More Podcast</a>
     </div>
     
   </section>

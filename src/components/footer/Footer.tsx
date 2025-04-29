@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
       </section>
-       <footer className="w-full bg-[#1ec258] text-black py-14 px-2 flex flex-col md:flex-row justify-between items-start text-sm border-t border-[#12130f] gap-4">
+       <footer className="w-full bg-[#1ec258] text-black py-14 px-2 sm:px-14 flex flex-col md:flex-row justify-between items-start text-sm border-t border-[#12130f] gap-4">
         <div className="mb-4 md:mb-0 md:w-1/3">
           <h1 className="text-5xl sm:text-6xl font-bold">RohitPrashar</h1>
           <div className="flex gap-4 mb-2 py-4">

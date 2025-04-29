@@ -9,7 +9,7 @@ const Section1: React.FC = () => {
       style={{ backgroundImage: "url('./imgs/home.png')" }} // 👈 your background img
     >
       <div className="absolute h-[71vh] sm:h-screen inset-0 bg-black opacity-50 sm:opacity-0"></div>
-      <div className="relative flex-1 px-2 sm:px-6">
+      <div className="relative flex-1 px-2 sm:px-14">
           <div className="text-[#1ec258] text-2xl mb-2">Hello Hello, I'm</div>
           <h1 className="text-5xl md:text-8xl lg-text-5xl font-bold text-white leading-tight mb-4">Rohit Prashar</h1>
           <p className="text-2xl md:text-4xl text-[#d5d0cd] mb-2">Build Your Digital Presence with Rohit Prashar</p>

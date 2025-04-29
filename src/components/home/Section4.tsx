@@ -1,15 +1,9 @@
 import React from "react";
-import {
-  FaYoutube,
-  FaInstagram,
-  FaWhatsapp,
-  FaLinkedin,
-  FaFacebook
-} from "react-icons/fa";
-import { SiThreads } from "react-icons/si";
+
+import SocialMediaIcons from "../contact/SocialMediaIcons";
 const Section4: React.FC = () => {
   return (
-    <section className="bg-gray-50 py-16 px-6">
+    <section className="bg-gray-50 py-16 px-4 sm:px-14">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center md:space-x-16">
         {/* Left Image Card */}
         <div className="w-full md:w-1/2 bg-gradient-to-br from-green-300 to-green-100 p-4 rounded-2xl shadow-lg">
@@ -36,56 +30,8 @@ const Section4: React.FC = () => {
           </p>
 
           {/* Social Icons */}
-          <div className="flex space-x-4 mt-8">
-            <a
-              href="https://www.youtube.com/@therohitprashar"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center hover:bg-gray-800 transition"
-            >
-              <FaYoutube />
-            </a>
-            <a
-              href="https://www.instagram.com/therohitprashar/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center hover:bg-gray-800 transition"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://whatsapp.com/channel/0029Va9ciRxIHphDsqDdFM3r"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center hover:bg-gray-800 transition"
-            >
-              <FaWhatsapp />
-            </a>
-            <a
-              href="https://www.facebook.com/therohitprashar/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center hover:bg-gray-800 transition"
-            >
-              <FaFacebook />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/therohitprashar/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center hover:bg-gray-800 transition"
-            >
-              <FaLinkedin />
-            </a>
-            
-            <a
-              href="https://x.com/therohitprashar"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center hover:bg-gray-800 transition"
-            >
-              <SiThreads />
-            </a>
+          <div className="mt-8">
+          <SocialMediaIcons/>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { FaPodcast, FaFilm, FaShareAlt } from "react-icons/fa";
 
 const Section2: React.FC = () => {
   return (
-    <div className="bg-black min-h-screen text-white p-8">
+    <div className="bg-black min-h-screen text-white p-8 px-4 sm:px-14">
       {/* Header */}
       <div className="text-center mb-12">
         <p className="inline-flex items-center text-green-400 uppercase text-sm tracking-widest mb-2">
