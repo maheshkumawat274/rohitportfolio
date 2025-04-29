@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import SocialMediaIcons from "../contact/SocialMediaIcons";
 
 const Footer: React.FC = () => {
   return (
@@ -7,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex items-center text-black font-bold text-lg sm:text-4xl">
           Need Help ? Chat with Rohit Prashar!
           <a
-            href="https://wa.me/+919973640023"
+            href="https://wa.me/+918252587182"
             className="ml-4 px-6 py-2 bg-black text-[#1ec258] rounded-full hover:scale-105 shadow transition font-bold"
           >
             WHATSAPP
@@ -17,45 +19,8 @@ const Footer: React.FC = () => {
        <footer className="w-full bg-[#1ec258] text-black py-14 px-2 sm:px-14 flex flex-col md:flex-row justify-between items-start text-sm border-t border-[#12130f] gap-4">
         <div className="mb-4 md:mb-0 md:w-1/3">
           <h1 className="text-5xl sm:text-6xl font-bold">RohitPrashar</h1>
-          <div className="flex gap-4 mb-2 py-4">
-            <a href="https://www.facebook.com/TheRajeevMehta" aria-label="Facebook">
-              <img
-                src="https://ext.same-assets.com/1304423565/260646423.svg"
-                className="h-8"
-                alt="Facebook"
-              />
-            </a>
-            <a href="https://www.youtube.com/c/RajeevMehtaIN/videos" aria-label="YouTube">
-              <img
-                src="https://ext.same-assets.com/1304423565/2563901416.svg"
-                className="h-8"
-                alt="YouTube"
-              />
-            </a>
-            <a href="https://x.com/RajeevMehtain" aria-label="X">
-              <img
-                src="https://ext.same-assets.com/1304423565/2320907649.svg"
-                className="h-8"
-                alt="X"
-              />
-            </a>
-            <a href="https://www.instagram.com/rajeevmehtain" aria-label="Instagram">
-              <img
-                src="https://ext.same-assets.com/1304423565/409235749.svg"
-                className="h-8"
-                alt="Instagram"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/rajeev-mehta-86ba0967/"
-              aria-label="LinkedIn"
-            >
-              <img
-                src="https://ext.same-assets.com/1304423565/1367661487.svg"
-                className="h-8"
-                alt="LinkedIn"
-              />
-            </a>
+          <div className="py-14">
+            <SocialMediaIcons/>
           </div>
           <div className="text-lg sm:text-xl text-black">
             With 5+ years of experience and 100,000+ students, the instructor has
@@ -66,30 +31,31 @@ const Footer: React.FC = () => {
           <h4 className="font-bold mb-1 text-2xl sm:text-4xl">Usefull Links</h4>
           <ul className="text-lg">
             <li>
+            <Link to='/about'>
             <a className="hover:underline">
-                about
+                About
               </a>
+            </Link>
             </li>
             <li>
               
-              <a href="https://learn.rajeevmehta.in/" className="hover:underline">
+              <Link to='/courses'>
+              <a className="hover:underline">
                 New Courses
-              </a>
+              </a></Link>
             </li>
             <li>
-              <a href="https://rajeevmehta.in/blog/" className="hover:underline">
+              <Link to='podcast'>
+              <a className="hover:underline">
                 Podcast
               </a>
+              </Link>
             </li>
             <li>
-              <a href="https://learn.rajeevmehta.in/#lw" className="hover:underline">
-                about
-              </a>
-            </li>
-            <li>
-              <a href="/contact" className="hover:underline">
+              <Link to='/contact'>
+              <a className="hover:underline">
                 Contact
-              </a>
+              </a></Link>
             </li>
           </ul>
         </div>
@@ -97,7 +63,7 @@ const Footer: React.FC = () => {
           <h1 className="font-bold mb-1 text-2xl sm:text-4xl">Contact</h1>
           <div className="text-lg">
           <div>Greate Noida , New Delhi 110020</div>
-          <div>++91 99736 40023</div>
+          <div>+918252587182</div>
           <div>info@rohitprashar.in</div>
           </div>
         </div>

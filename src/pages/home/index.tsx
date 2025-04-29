@@ -17,9 +17,10 @@ const Homepage = () => {
     <Section7/>
     <Section8/>
     <Section4/>
+    <Section6/>
     <Section2/>
     <Section5/>
-    <Section6/>
+   
     <Contact/>
     </div>
     </>

@@ -21,7 +21,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="w-full fixed z-50 bg-[#0b0b0c] border-b border-[#332d2e]">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="max-w-8xl mx-auto px-4 sm:px-14 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2" onClick={handleLinkClick}>
           <span className="text-white font-bold text-3xl md:text-4xl">RohitPrashar</span>
         </Link>
