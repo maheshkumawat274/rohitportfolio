@@ -27,7 +27,7 @@ const Header: React.FC = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden lg:flex space-x-8">
           {navLinks.map(link => (
             <Link
               key={link.to}
@@ -42,9 +42,27 @@ const Header: React.FC = () => {
             </Link>
           ))}
         </nav>
+        <div className="hidden sm:flex">
+        <button
+          className=" text-xl w-64 h-12 rounded bg-emerald-500 text-white relative overflow-hidden group z-10 hover:text-white duration-1000"
+        >
+          <span
+            className="absolute bg-emerald-600 w-72 h-36 rounded-full group-hover:scale-100 scale-0 -z-10 -left-2 -top-10 group-hover:duration-500 duration-700 origin-center transform transition-all"
+          ></span>
+          <span
+            className="absolute bg-emerald-800 w-72 h-36 -left-2 -top-10 rounded-full group-hover:scale-100 scale-0 -z-10 group-hover:duration-700 duration-500 origin-center transform transition-all"
+          ></span>
+          <a 
+                href='https://topmate.io/therohitprashar'
+                target="_blank"
+                rel="noopener noreferrer">
+          1:1 Consultation Call
+          </a>
+        </button>
+        </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="text-white focus:outline-none"
@@ -62,8 +80,9 @@ const Header: React.FC = () => {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden flex flex-col bg-[#0b0b0c] border-t border-[#332d2e] px-4 py-4 space-y-4"
+            
           >
+            <div className="lg:hidden flex flex-col bg-[#0b0b0c] border-t border-[#332d2e] px-4 py-4 space-y-4">
             {navLinks.map(link => (
               <Link
                 key={link.to}
@@ -77,9 +96,30 @@ const Header: React.FC = () => {
               >
                 {link.name}
               </Link>
+              
             ))}
+            <div className="sm:hidden">
+             <button
+               className=" text-lg w-64 h-12 rounded bg-emerald-500 text-white relative overflow-hidden group z-10 hover:text-white duration-1000"
+             >
+               <span
+                 className="absolute bg-emerald-600 w-72 h-36 rounded-full group-hover:scale-100 scale-0 -z-10 -left-2 -top-10 group-hover:duration-500 duration-700 origin-center transform transition-all"
+               ></span>
+               <span
+                 className="absolute bg-emerald-800 w-72 h-36 -left-2 -top-10 rounded-full group-hover:scale-100 scale-0 -z-10 group-hover:duration-700 duration-500 origin-center transform transition-all"
+               ></span>
+               <a 
+                     href='https://topmate.io/therohitprashar'
+                     target="_blank"
+                     rel="noopener noreferrer">
+               1:1 Consultation Call
+               </a>
+             </button>
+             </div>
+            </div>
           </motion.nav>
         )}
+        
       </AnimatePresence>
     </header>
   );

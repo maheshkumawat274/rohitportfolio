@@ -1,4 +1,5 @@
 
+import Contact from '../../components/contact/Contact'
 import Section1 from '../../components/home/Section1'
 import Section2 from '../../components/home/Section2'
 import Section4 from '../../components/home/Section4'
@@ -18,7 +19,7 @@ const Homepage = () => {
     <Section4/>
     <Section5/>
     <Section6/>
-    
+    <Contact/>
     </div>
     </>
   )

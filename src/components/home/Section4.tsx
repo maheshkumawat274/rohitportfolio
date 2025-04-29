@@ -62,7 +62,7 @@ const Section4: React.FC = () => {
               <FaWhatsapp />
             </a>
             <a
-              href="https://facebook.com/yourprofile"
+              href="https://www.facebook.com/therohitprashar/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center hover:bg-gray-800 transition"

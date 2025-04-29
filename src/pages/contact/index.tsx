@@ -1,9 +1,14 @@
 
 import Contact from '../../components/contact/Contact'
+import Contacticons from '../../components/contact/Contacticons'
 
 const Contactpage = () => {
   return (
-    <div><Contact/></div>
+    <div className='mt-14'>
+      <Contact/>
+      <Contacticons/>
+      </div>
+    
   )
 }
 
