@@ -16,9 +16,9 @@ const Footer: React.FC = () => {
           </a>
         </div>
       </section>
-       <footer className="w-full bg-[#1ec258] text-black py-14 px-2 sm:px-14 flex flex-col md:flex-row justify-between items-start text-sm border-t border-[#12130f] gap-4">
+       <footer className="w-full bg-[#1ec258] text-black py-14 px-8 sm:px-14 flex flex-col lg:flex-row justify-between items-start text-sm border-t border-[#12130f] gap-4">
         <div className="mb-4 md:mb-0 md:w-1/3">
-          <h1 className="text-5xl sm:text-6xl font-bold">RohitPrashar</h1>
+          <h1 className="text-5xl lg-text-6xl sm:text-5xl font-bold">RohitPrashar</h1>
           <div className="py-14">
             <SocialMediaIcons/>
           </div>
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mb-4 md:mb-0 md:w-1/3">
-          <h4 className="font-bold mb-1 text-2xl sm:text-4xl">Usefull Links</h4>
+          <h4 className="font-bold mb-1 text-2xl sm:text-3xl">Usefull Links</h4>
           <ul className="text-lg">
             <li>
             <Link to='/about'>
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <div className="md:w-1/3">
-          <h1 className="font-bold mb-1 text-2xl sm:text-4xl">Contact</h1>
+          <h1 className="font-bold mb-1 text-2xl sm:text-3xl">Contact</h1>
           <div className="text-lg">
           <div>Greate Noida , New Delhi 110020</div>
           <div>+918252587182</div>
