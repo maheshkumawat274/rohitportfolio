@@ -7,6 +7,7 @@ import Coursespage from "./pages/courses";
 import Contactpage from "./pages/contact";
 import FooterPage from "./pages/footer";
 import Headerpage from "./pages/header";
+import ScrollTop from "./components/ScrollTop";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <div className="flex flex-col min-h-screen bg-[#0b0b0c] text-[#d5d0cd]">
         <Headerpage />
         <main className="flex-grow">
+          <ScrollTop/>
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<AboutPage />} />
