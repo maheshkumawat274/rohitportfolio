@@ -89,7 +89,7 @@ const Header: React.FC = () => {
       animate={{ x: 0 }}
       exit={{ x: "100%" }}
       transition={{ duration: 0.3 }}
-      className="fixed top-0 right-0 w-4/5 h-full bg-[#0b0b0c] z-50 shadow-lg"
+      className="fixed top-0 right-0 w-full h-full bg-[#0b0b0c] z-50 shadow-lg"
     >
       {/* Close button */}
       <div className="flex justify-end p-4">

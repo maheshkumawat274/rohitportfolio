@@ -1,6 +1,6 @@
 import {
   FaInstagram,
-  FaXTwitter,
+  // FaXTwitter,
   FaFacebookF,
   FaYoutube,
   FaWhatsapp,
@@ -26,7 +26,7 @@ const SocialMediaIcons = () => {
       </div>
 
       {/* X (Twitter) */}
-      <div className="social-button">
+      {/* <div className="social-button">
         <a
         href="https://x.com/therohitprashar"
         target="_blank"
@@ -38,7 +38,7 @@ const SocialMediaIcons = () => {
           </div>
         </button>
         </a>
-      </div>
+      </div> */}
 
       {/* Facebook */}
       <div className="social-button">

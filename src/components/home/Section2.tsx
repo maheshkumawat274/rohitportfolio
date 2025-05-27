@@ -3,7 +3,7 @@ import { FaPodcast, FaFilm, FaShareAlt } from "react-icons/fa";
 
 const Section2: React.FC = () => {
   return (
-    <div className="bg-black min-h-screen text-white p-8 px-4 sm:px-14">
+    <div className="bg-black min-h-screen text-white p-8 px-2 sm:px-14">
       {/* Header */}
       <div className="text-center mb-12">
         <p className="inline-flex items-center text-green-400 uppercase text-sm tracking-widest mb-2">
@@ -35,9 +35,11 @@ const Section2: React.FC = () => {
               <li>Publishing & Distribution</li>
             </ul>
           </div>
+          <a href='https://topmate.io/therohitprashar'>
           <button className="mt-6 self-start bg-white text-black py-2 px-4 rounded-full hover:bg-gray-200 transition">
             ↳ Schedule a Consultation
           </button>
+          </a>
         </div>
 
         {/* Video Editing */}
@@ -56,9 +58,9 @@ const Section2: React.FC = () => {
               <li>Fast Turnaround Times</li>
             </ul>
           </div>
-          <button className="mt-6 self-start bg-green-400 text-black py-2 px-4 rounded-full hover:bg-green-300 transition">
+          <a href='https://topmate.io/therohitprashar'><button className="mt-6 self-start bg-green-400 text-black py-2 px-4 rounded-full hover:bg-green-300 transition">
             ↳ Schedule a Consultation
-          </button>
+          </button></a>
         </div>
 
         {/* Social Media Marketing */}
@@ -77,9 +79,11 @@ const Section2: React.FC = () => {
               <li>Analytics & Reporting</li>
             </ul>
           </div>
+          <a href='https://topmate.io/therohitprashar'>
           <button className="mt-6 self-start bg-green-400 text-black py-2 px-4 rounded-full hover:bg-green-300 transition">
             ↳ Schedule a Consultation
           </button>
+          </a>
         </div>
       </div>
     </div>

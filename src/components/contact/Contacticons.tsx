@@ -4,7 +4,7 @@ import SocialMediaIcons from './SocialMediaIcons';
 
 const Contacticons: React.FC = () => {
   return (
-    <div className="min-h-[40vh] bg-black text-white flex flex-col items-center justify-center px-6 py-12">
+    <div className="min-h-[40vh] bg-black text-white flex flex-col items-center justify-center px-2 sm:px-6 py-12">
       <div className="flex flex-col md:flex-row gap-8 md:gap-16">
 
         {/* Email Section */}

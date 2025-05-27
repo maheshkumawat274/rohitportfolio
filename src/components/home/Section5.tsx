@@ -49,7 +49,7 @@ const podcasts = [
 
 const Section5: React.FC = () => {
   return (
-    <section className="bg-[#12130f] relative px-4 py-16 min-h-[150vh]" style={{ zIndex: 10 }}>
+    <section className="bg-[#12130f] relative px-2 sm:px-4 py-16 min-h-[150vh]" style={{ zIndex: 10 }}>
       <div className='text-center pb-5 text-white'>
       <h1 className='text-3xl sm:text-6xl font-bold'>Courses (Comming Soon...🚀)</h1>
       <p className='text-lg pt-2'>Level Up Your Skills with Rohit Prashar – Exclusive Courses Coming Soon!</p>

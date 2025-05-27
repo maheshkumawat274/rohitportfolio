@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const AboutPodcast: React.FC = () => {
   return (
-    <section className="bg-black text-white py-16 px-14">
+    <section className="bg-black text-white py-16 px-2 sm:px-14">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
         
         {/* Stats Section */}

@@ -25,7 +25,7 @@ const steps = [
 ];
 
 const Section7: React.FC = () => (
-  <section className="bg-gray-50 py-16  px-6">
+  <section className="bg-gray-50 py-16 px-2 sm:px-6">
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row ">
       {/* Left Column */}
       <div className="w-full md:w-1/2 mb-12 md:mb-0">
@@ -33,14 +33,16 @@ const Section7: React.FC = () => (
           <span className="w-2 h-2 bg-green-400 rounded-full mr-2" />
           My Podcast Process
         </span>
-        <h2 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
+        <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
           My Podcast
           <br />
           Production Workflow
-        </h2>
-        <button className="mt-8 bg-green-400 text-black font-medium py-2 px-6 rounded-full hover:bg-green-300 transition">
+        </h1>
+        <a href='https://topmate.io/therohitprashar'>
+        <button className="mt-8 bg-green-400 text-black font-medium py-2 px-6 rounded-full hover:bg-green-500 transition cursor-pointer">
           ↳ Schedule a Consultation
         </button>
+        </a>
       </div>
 
       {/* Right Column: Steps */}

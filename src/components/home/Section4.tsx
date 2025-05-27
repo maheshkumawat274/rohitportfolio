@@ -3,7 +3,7 @@ import SocialMediaIcons from "../contact/SocialMediaIcons";
 
 const Section4: React.FC = () => {
   return (
-    <section className="bg-white py-16 px-4 sm:px-14">
+    <section className="bg-white py-16 px-2 sm:px-14">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center md:space-x-16">
         {/* Left Side Image with Background */}
         <div className="w-full md:w-1/2 flex justify-center">
@@ -21,16 +21,16 @@ const Section4: React.FC = () => {
         </div>
 
         {/* Right Text */}
-        <div className="w-full md:w-1/2 mb-12 md:mb-0 text-center md:text-left">
+        <div className="w-full md:w-1/2 mb-12 md:mb-0  md:text-left">
           <span className="inline-flex items-center text-black text-sm uppercase tracking-wide bg-white border border-gray-300 px-3 py-1 rounded-full">
             <span className="w-2 h-2 bg-green-400 rounded-full mr-2 block"></span>
             About Me
           </span>
 
-          <h2 className="mt-4 text-4xl md:text-6xl font-bold leading-tight text-gray-900">
+          <h1 className="mt-4 text-4xl md:text-6xl font-bold leading-tight text-gray-900">
             Discover My <br />
             Design Journey
-          </h2>
+          </h1>
 
           <p className="mt-6 text-gray-700 max-w-lg mx-auto md:mx-0">
             Hello! I’m Rohit Prashar, a passionate content creator with over 5+ years of

@@ -30,7 +30,7 @@ const videoCards: VideoCard[] = [
 ];
 
 const Section8: React.FC = () => (
-  <section className="py-16 px-6 bg-black">
+  <section className="py-16 px-2 sm:px-6 bg-black">
     <div className="max-w-7xl mx-auto">
       <h2 className="text-4xl sm:text-6xl text-white font-bold text-center mb-12">Featured Podcast Videos</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -51,7 +51,7 @@ const Section8: React.FC = () => (
               />
             </div>
 
-            <div className="p-6 flex flex-col flex-grow">
+            <div className="p-2 sm:p-6 flex flex-col flex-grow">
               <h1 className="text-xl font-semibold mb-2">{title}</h1>
               <p className="text-gray-400 flex-grow">{description}</p>
               <a

@@ -1,5 +1,5 @@
 
-import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/home";
 import AboutPage from "./pages/about";
 import PodcastPage from "./pages/podcast";
@@ -23,7 +23,6 @@ function App() {
             <Route path="/podcast" element={<PodcastPage />} />
             <Route path="/course" element={<Coursespage />} />
             <Route path="/contact" element={<Contactpage />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
         <FooterPage />

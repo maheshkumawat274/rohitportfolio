@@ -17,7 +17,7 @@ const podcasts = [
 
 const Podcast: React.FC = () => {
   return (
-    <section className="max-w-6xl mx-auto px-4 py-16">
+    <section className="max-w-6xl mx-auto px-2 sm:px-4 py-16">
       <h1 className="text-3xl font-bold text-white mb-8 ">All Podcast Episodes</h1>
       <div className="grid gap-10 md:grid-cols-3">
         {podcasts.map((p, idx) => (
