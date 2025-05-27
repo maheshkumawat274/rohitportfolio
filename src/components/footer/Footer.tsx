@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <div className="md:w-1/3">
-          <h1 className="font-bold mb-1 text-2xl sm:text-3xl">Contact</h1>
+          <h2 className="font-bold mb-1 text-2xl sm:text-3xl">Contact</h2>
           <div className="text-lg">
           <div>Greate Noida , New Delhi 110020</div>
           <div>+918252587182</div>

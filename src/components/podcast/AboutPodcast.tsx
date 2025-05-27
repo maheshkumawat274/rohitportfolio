@@ -15,7 +15,7 @@ const AboutPodcast: React.FC = () => {
             { number: '5 Years', label: 'Podcasting Experience' },
           ].map((stat, index) => (
             <div key={index} className="bg-gradient-to-r from-green-300 to-green-500 p-6 rounded-md shadow-lg text-center">
-              <h1 className="text-3xl font-bold">{stat.number}</h1>
+              <h2 className="text-3xl font-bold">{stat.number}</h2>
               <p className="text-white text-lg">{stat.label}</p>
             </div>
           ))}
@@ -32,10 +32,10 @@ const AboutPodcast: React.FC = () => {
 
         {/* Text Content */}
         <div className="space-y-5">
-          <h1 className="text-green-400 uppercase font-semibold">About Podcast</h1>
-          <h2 className="text-3xl lg:text-4xl font-bold leading-snug">
+          <h2 className="text-green-400 uppercase font-semibold">About Podcast</h2>
+          <h3 className="text-3xl lg:text-4xl font-bold leading-snug">
             Sharing Real Stories <br /> That Inspire and Impact
-          </h2>
+          </h3>
           <p className="text-gray-300">
             I'm a passionate podcast host on a mission to amplify voices that matter. Every week, I sit down with 
             industry leaders, creators, and changemakers to explore their journeys, struggles, and insights. 
@@ -46,7 +46,7 @@ const AboutPodcast: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <div className="text-pink-500 text-3xl mb-2">🎙</div>
-              <h3 className="font-bold">Honest Conversations & Expert Guests</h3>
+              <h2 className="font-bold">Honest Conversations & Expert Guests</h2>
               <p className="text-gray-400">Unfiltered discussions that dig deep into what really drives success and growth.</p>
             </div>
             <div>

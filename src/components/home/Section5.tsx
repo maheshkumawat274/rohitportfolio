@@ -77,9 +77,9 @@ const Section5: React.FC = () => {
                 <p className="text-md text-[#1ec258] font-semibold uppercase mb-1">
                   {podcast.category}
                 </p>
-                <h1 className="text-xl sm:text-4xl font-bold text-[#e0f234] mb-1">
+                <h2 className="text-xl sm:text-4xl font-bold text-[#e0f234] mb-1">
                   {podcast.title}
-                </h1>
+                </h2>
                 <p className="text-lg text-gray-200 mb-2">{podcast.desc}</p>
               </div>
               </div>

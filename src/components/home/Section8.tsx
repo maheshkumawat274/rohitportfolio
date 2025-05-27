@@ -52,7 +52,7 @@ const Section8: React.FC = () => (
             </div>
 
             <div className="p-2 sm:p-6 flex flex-col flex-grow">
-              <h1 className="text-xl font-semibold mb-2">{title}</h1>
+              <h3 className="text-xl font-semibold mb-2">{title}</h3>
               <p className="text-gray-400 flex-grow">{description}</p>
               <a
                 href={link}

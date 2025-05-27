@@ -27,10 +27,10 @@ const Section4: React.FC = () => {
             About Me
           </span>
 
-          <h1 className="mt-4 text-4xl md:text-6xl font-bold leading-tight text-gray-900">
+          <h2 className="mt-4 text-4xl md:text-6xl font-bold leading-tight text-gray-900">
             Discover My <br />
             Design Journey
-          </h1>
+          </h2>
 
           <p className="mt-6 text-gray-700 max-w-lg mx-auto md:mx-0">
             Hello! I’m Rohit Prashar, a passionate content creator with over 5+ years of

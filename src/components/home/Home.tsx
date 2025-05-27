@@ -60,7 +60,7 @@ const Home: React.FC = () => {
           style={{ filter: "blur(2.5px)", pointerEvents: "none" }}
         >
           <div className="p-12 text-center">
-            <h2 className="text-3xl font-extrabold text-white mb-4">Courses</h2>
+            <h3 className="text-3xl font-extrabold text-white mb-4">Courses</h3>
             <p className="text-lg text-[#c4c4c4]">
               All new content, tools and resources for creators.
               <br />
@@ -78,8 +78,8 @@ const Home: React.FC = () => {
       {/* Reviews Section */}
       <section className="bg-[#191919] py-16">
         <div className="max-w-6xl mx-auto px-4">
-          <h3 className="text-center text-[#1ec258] text-lg font-semibold mb-2">We Love Your Reviews</h3>
-          <h2 className="text-center text-2xl text-white font-bold mb-10">What People Are Saying</h2>
+          <h4 className="text-center text-[#1ec258] text-lg font-semibold mb-2">We Love Your Reviews</h4>
+          <h5 className="text-center text-2xl text-white font-bold mb-10">What People Are Saying</h5>
           <div className="grid gap-8 md:grid-cols-4">
             {[
               {
@@ -127,7 +127,7 @@ const Home: React.FC = () => {
       {/* Benefits/Feature Section */}
       <section className="bg-[#0b0b0c] py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-white text-2xl font-bold mb-4">A True Crime Podcast You Will Enjoy.</h2>
+          <h6 className="text-white text-2xl font-bold mb-4">A True Crime Podcast You Will Enjoy.</h6>
           <p className="mb-8 text-[#d5d0cd]">
             Join the clan today to get info about upcoming episodes, member-only content, updates and much more.
           </p>

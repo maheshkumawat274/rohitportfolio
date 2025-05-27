@@ -10,11 +10,11 @@ const Section2: React.FC = () => {
           <span className="w-2 h-2 bg-green-400 rounded-full mr-2 block"></span>
           What I Offer
         </p>
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+        <h2 className="text-4xl md:text-6xl font-bold leading-tight">
           Empowering Brands
           <br />
           Through Media
-        </h1>
+        </h2>
       </div>
 
       {/* Cards Grid */}
@@ -25,7 +25,7 @@ const Section2: React.FC = () => {
             <div className="w-12 h-12 bg-green-300 rounded-full flex items-center justify-center mb-4">
               <FaPodcast className="w-6 h-6 text-white" />
             </div>
-            <h2 className="text-2xl font-bold mb-4">Podcast Production</h2>
+            <h3 className="text-2xl font-bold mb-4">Podcast Production</h3>
             <p className="mb-6">
               Crafting high-quality podcasts that engage and grow your audience is my specialty.
             </p>
@@ -48,7 +48,7 @@ const Section2: React.FC = () => {
             <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center mb-4">
               <FaFilm className="w-6 h-6 text-gray-300" />
             </div>
-            <h2 className="text-2xl font-bold mb-4">Video Editing</h2>
+            <h3 className="text-2xl font-bold mb-4">Video Editing</h3>
             <p className="mb-6 text-white">
               Bringing your raw footage to life with dynamic and engaging edits.
             </p>
@@ -69,7 +69,7 @@ const Section2: React.FC = () => {
             <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mb-4">
               <FaShareAlt className="w-6 h-6 text-gray-500" />
             </div>
-            <h2 className="text-2xl font-bold mb-4">Social Media Marketing</h2>
+            <h3 className="text-2xl font-bold mb-4">Social Media Marketing</h3>
             <p className="mb-6">
               Elevating your brand presence across platforms with targeted strategies.
             </p>
