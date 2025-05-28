@@ -1,7 +1,6 @@
 
 import { Helmet } from 'react-helmet'
 import Contact from '../../components/contact/Contact'
-import CollabSection from '../../components/home/CollabSection'
 import Join from '../../components/home/Join'
 import Section1 from '../../components/home/Section1'
 import Section2 from '../../components/home/Section2'
@@ -10,6 +9,7 @@ import Section5 from '../../components/home/Section5'
 import Section6 from '../../components/home/Section6'
 import Section7 from '../../components/home/Section7'
 import Section8 from '../../components/home/Section8'
+import { CollabSection } from '../../components/home/CollabSection'
 
 const Homepage = () => {
   return (
@@ -23,7 +23,6 @@ const Homepage = () => {
 
     <div className='mt-14 pt-3 sm:pt-4 '>
     <Section1/>
-    
     <Section7/>
     <Section8/>
     <Section4/>
