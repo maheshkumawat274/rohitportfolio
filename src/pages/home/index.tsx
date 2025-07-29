@@ -1,15 +1,11 @@
 
 import { Helmet } from 'react-helmet'
-import Contact from '../../components/contact/Contact'
 import Join from '../../components/home/Join'
-import Section1 from '../../components/home/Section1'
-import Section2 from '../../components/home/Section2'
-import Section4 from '../../components/home/Section4'
-import Section5 from '../../components/home/Section5'
-import Section6 from '../../components/home/Section6'
-import Section7 from '../../components/home/Section7'
-import Section8 from '../../components/home/Section8'
-import { CollabSection } from '../../components/home/CollabSection'
+import HomeHero from '../../components/home/HomeHero'
+import AboutHome from '../../components/home/AboutHome'
+import FeaturedPodcastHome from '../../components/home/FeaturedPodcastHome'
+import CoursesHome from '../../components/home/CoursesHome'
+import ContactHome from '../../components/home/ContactHome'
 
 const Homepage = () => {
   return (
@@ -22,16 +18,12 @@ const Homepage = () => {
       </Helmet>
 
     <div className='mt-14 pt-3 sm:pt-4 '>
-    <Section1/>
-    <Section7/>
-    <Section8/>
-    <Section4/>
-    <Section6/>
-    <Section2/>
-    <CollabSection/>
-    <Section5/>
+    <HomeHero/>
+    <AboutHome/>
+    <FeaturedPodcastHome/>
+    <CoursesHome/>
     <Join/>
-    <Contact/>
+    <ContactHome/>
     </div>
     </>
   )

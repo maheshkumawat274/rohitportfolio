@@ -49,13 +49,13 @@ const videoCards: VideoCard[] = [
 const PodcastVideos: React.FC = () => (
   <section className="py-16 px-2 sm:px-6 bg-black">
     <div className="max-w-7xl mx-auto">
-      <h1 className="text-4xl sm:text-6xl text-white font-bold text-center mb-3">Top podcasts:</h1>
-      <p className=' text-xl sm:text-2xl text-white font-semibold text-center mb-12'>Discover the selection of the most popular podcasts.</p>
+      <h1 className="text-4xl sm:text-6xl text-gray-300 font-bold text-center mb-3">Top podcasts:</h1>
+      <p className=' text-xl sm:text-2xl text-gray-500 font-semibold text-center mb-12'>Discover the selection of the most popular podcasts.</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {videoCards.map(({ videoId, title, description, link }) => (
           <div
             key={videoId}
-            className="bg-gray-800 rounded-2xl shadow-lg overflow-hidden flex flex-col"
+            className="bg-[#141414] rounded-2xl shadow-lg overflow-hidden flex flex-col"
           >
             {/* Responsive YouTube iframe */}
             <div className="aspect-video w-full">

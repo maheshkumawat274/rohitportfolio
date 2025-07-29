@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import FeatureBtn from '../btns/FeatureBtn';
 
 interface VideoCard {
   videoId: string;
@@ -29,15 +30,15 @@ const videoCards: VideoCard[] = [
   },
 ];
 
-const Section8: React.FC = () => (
+const FeaturedPodcastHome: React.FC = () => (
   <section className="py-16 px-2 sm:px-6 bg-black">
     <div className="max-w-7xl mx-auto">
-      <h2 className="text-4xl sm:text-6xl text-white font-bold text-center mb-12">Featured Podcast Videos</h2>
+      <h2 className="text-4xl sm:text-6xl text-gray-300 font-bold text-center mb-12">Featured Podcast Videos</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {videoCards.map(({ videoId, title, description, link }) => (
           <div
             key={videoId}
-            className="bg-gray-800 rounded-2xl shadow-lg overflow-hidden flex flex-col"
+            className="bg-[#141414] rounded-2xl shadow-lg overflow-hidden flex flex-col"
           >
             {/* Responsive YouTube iframe */}
             <div className="aspect-video w-full">
@@ -52,8 +53,8 @@ const Section8: React.FC = () => (
             </div>
 
             <div className="p-2 sm:p-6 flex flex-col flex-grow">
-              <h3 className="text-xl font-semibold mb-2">{title}</h3>
-              <p className="text-gray-400 flex-grow">{description}</p>
+              <h3 className="text-xl text-gray-300 font-semibold mb-2">{title}</h3>
+              <p className="text-gray-500 flex-grow">{description}</p>
               <a
                 href={link}
                 target="_blank"
@@ -68,10 +69,9 @@ const Section8: React.FC = () => (
       </div>
     </div>
     <div className='text-center pt-14'>
-      <button className='bg-transparent border border-[#1ec258] hover:bg-[#1ec258] hover:text-white text-[#1ec258] font-bold py-3 px-8 rounded-full text-xl'>
-        <Link to='/podcast'>Watch More Podcast</Link></button>
+      <Link to='/podcast'><FeatureBtn/></Link>
     </div>
   </section>
 );
 
-export default Section8;
+export default FeaturedPodcastHome;

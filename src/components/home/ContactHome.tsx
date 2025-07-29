@@ -1,11 +1,11 @@
 
 import React from 'react';
 
-const Contact: React.FC = () => {
+const ContactHome: React.FC = () => {
   return (
     
     <section className='min-h-screen bg-black py-14'>
-      <h1 className="text-[70px] sm:text-[120px] mx-[20px] sm:[100px] lg:mx-[270px] font-bold leading-none">CONTACT</h1>
+      <h1 className="text-[70px] sm:text-[120px] mx-[20px] sm:[100px] lg:mx-[270px] font-bold leading-none">Contact Us</h1>
       <div className="  text-white flex flex-col px-6 py-12 justify-center items-center">
         
       <div className="flex flex-col md:flex-row justify-center items-start gap-16 mt-10 w-full max-w-6xl">
@@ -42,15 +42,26 @@ const Contact: React.FC = () => {
             />
           </div>
 
-          <div className="flex flex-col gap-1">
-            <label className="text-sm" htmlFor="budget">Your Budget</label>
-            <input
-              id="budget"
-              type="text"
-              className="bg-[#1c1c1c] border-2 border-transparent hover:border-2 hover:border-green-400 rounded-md px-4 py-3 outline-none"
-            />
-          </div>
-
+           <div className="flex flex-col gap-1">
+             <label className="text-sm" htmlFor="mobile">Mobile Number <span className="text-red-500">*</span></label>
+             <div className="flex">
+               <span className="bg-green-400 text-white border-2 border-transparent rounded-l-md px-4 py-3 flex items-center">+91</span>
+               <input
+             id="mobile"
+             name="phone"
+             type="tel"
+            //  value={formData.phone}
+            //  onChange={handleChange}
+             onInput={(e) => {
+               e.currentTarget.value = e.currentTarget.value.replace(/[^0-9]/g, "");
+             }}
+             className="text-white border-2 border-transparent hover:border-green-400 rounded-r-md px-4 py-3 outline-none w-full"
+             placeholder="Enter 10-digit number"
+             required
+           />
+           
+             </div>
+           </div>
           <div className="flex flex-col gap-1">
             <label className="text-sm" htmlFor="description">Description</label>
             <textarea
@@ -73,4 +84,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact;
+export default ContactHome;

@@ -47,15 +47,15 @@ const podcasts = [
   },
 ];
 
-const Section5: React.FC = () => {
+const CoursesHome: React.FC = () => {
   return (
-    <section className="bg-[#12130f] relative px-2 sm:px-4 py-16 min-h-[150vh]" style={{ zIndex: 10 }}>
-      <div className='text-center pb-5 text-white'>
-      <h1 className='text-3xl sm:text-6xl font-bold'>Courses (Comming Soon...🚀)</h1>
+    <section className="bg-black relative px-2 sm:px-4 py-16 min-h-[150vh]" style={{ zIndex: 10 }}>
+      <div className='text-center pb-5 text-gray-300'>
+      <h1 className='text-3xl sm:text-6xl font-bold'>Courses (Coming Soon...🚀)</h1>
       <p className='text-lg pt-2'>Level Up Your Skills with Rohit Prashar – Exclusive Courses Coming Soon!</p>
       <p className='text-lg font-bold'>Topics You'll Learn</p>
      </div>
-      <div className="relative h-[250vh]">
+      <div className="relative">
         {podcasts.map((podcast, i) => (
           <div
             key={podcast.title}
@@ -65,7 +65,7 @@ const Section5: React.FC = () => {
               zIndex: 20 + i,
             }}
           >
-            <div className="bg-[#23261C] rounded-xl p-6 py-14 flex items-start border border-[#32341e] shadow-xl mb-8 gap-14">
+            <div className="   rounded-xl p-6 py-14 flex items-start border border-[#36d23b] shadow-xl bg-[#141414] mb-8 gap-14">
               {/* Icon */}
               <div className="hidden sm:block">
                 {iconMap[podcast.category]}
@@ -77,10 +77,10 @@ const Section5: React.FC = () => {
                 <p className="text-md text-[#1ec258] font-semibold uppercase mb-1">
                   {podcast.category}
                 </p>
-                <h2 className="text-xl sm:text-4xl font-bold text-[#1EC258] mb-1">
+                <h2 className="text-xl sm:text-4xl font-bold text-gray-300 mb-1">
                   {podcast.title}
                 </h2>
-                <p className="text-lg text-gray-200 mb-2">{podcast.desc}</p>
+                <p className="text-lg text-gray-500 mb-2">{podcast.desc}</p>
               </div>
               </div>
             </div>
@@ -91,4 +91,4 @@ const Section5: React.FC = () => {
   );
 };
 
-export default Section5;
+export default CoursesHome;

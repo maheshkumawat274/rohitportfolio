@@ -16,7 +16,7 @@ const Home: React.FC = () => {
           </div>
         </div>
         <div className="flex-1 max-w-xs mt-12 md:mt-0 md:ml-8">
-          <img src="./imgs/for website  (Facebook Post (Square))[1].png" alt="Rohit Hero" className="rounded-xl shadow-lg w-full" />
+          <img src="/imgs/home.jpg" alt="Rohit Hero" className="rounded-xl shadow-lg w-full" />
         </div>
       </section>
 

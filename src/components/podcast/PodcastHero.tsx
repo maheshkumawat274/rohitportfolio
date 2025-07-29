@@ -3,19 +3,21 @@ import React from "react";
 const PodcastHero: React.FC = () => {
   return (
     <div
-      className="relative w-full h-[80vh] bg-cover bg-center"
-      style={{ backgroundImage: `url('./imgs/podcasthero.jpg')` }}
+      className="relative w-full h-[60vh] md:h-[80vh] bg-cover"
+      style={{
+        backgroundImage: `url('/imgs/home.jpg')`,
+        backgroundPosition: "top center",
+      }}
     >
-      <div className="absolute inset-0 bg-black opacity-60" />
-      <div className="relative z-10 flex justify-center items-center h-full px-6 md:px-20">
-        <div className="text-center">
-          <h1 className="text-white text-4xl md:text-5xl font-bold mb-2">
-            Podcast
-          </h1>
-          <p className="text-sm">
-            <span className="text-green-400 font-medium">Home</span>{" "}
-            <span className="text-white">/ Podcast</span>
-          </p>
+      {/* Bottom gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
+
+      {/* Text aligned to bottom center */}
+      <div className="relative z-10 flex items-end justify-center h-full px-6 md:px-20 pb-10">
+        <div className="max-w-3xl text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-300 leading-relaxed">
+            The Rohit Prashar Show (हिन्दी)
+          </h2>
         </div>
       </div>
     </div>

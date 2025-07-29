@@ -1,7 +1,9 @@
 
 import { Helmet } from 'react-helmet'
-import AboutHero from '../../components/about/AboutHero'
-import Section4 from '../../components/home/Section4'
+import AboutUsHero from '../../components/about/AboutHero'
+import AboutHome from '../../components/home/AboutHome'
+import AboutSection1 from '../../components/about/AboutSection1'
+import AboutSection2 from '../../components/about/AboutSection2'
 
 const AboutPage = () => {
   return (
@@ -13,10 +15,12 @@ const AboutPage = () => {
         <link rel="canonical" href="https://rohitpra.netlify.app/about" />
       </Helmet>
     <div className='mt-14'>
-      <AboutHero/>
+      <AboutUsHero/>
+      <AboutHome/>
+      <AboutSection1/>
+      <AboutSection2/>
     </div>
 
-    <Section4/>
     </>
   )
 }

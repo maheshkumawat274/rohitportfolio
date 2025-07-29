@@ -1,17 +1,19 @@
+
 // Section1.tsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Section1: React.FC = () => {
+const HomeHero: React.FC = () => {
   return (
     
     <section
-      className="w-full h-[60vh] sm:h-screen flex items-center bg-cover bg-[70%_center] lg:bg-center"
-      style={{ backgroundImage: "url('./imgs/home.png')" }} // 👈 your background img
+      className="w-full h-[60vh] md:h-screen flex items-center bg-cover bg-[70%_center] lg:bg-center"
+      style={{ backgroundImage: "url('/imgs/home.jpg')" }} // 👈 your background img
     >
-      <div className="absolute h-[70vh] sm:h-screen inset-0 bg-black opacity-50 sm:opacity-0"></div>
+     <div className="absolute h-[70.5vh] md:h-[110.5vh] inset-0 bg-gradient-to-r from-black/100 via-black/40 to-transparent"></div>
+
       <div className="relative flex-1 px-2 sm:px-14">
-          <div className="text-[#1ec258] text-2xl mb-2">Hello Hello, I'm</div>
+          <div className="text-[#1ec258] text-2xl mb-2">Hello, I'm</div>
           <h1 className="text-5xl md:text-8xl lg-text-5xl font-bold text-white leading-tight mb-4">Rohit Prashar</h1>
           <p className="text-2xl md:text-4xl text-[#d5d0cd] mb-2">Build Your Digital Presence with Rohit Prashar</p>
           <p className="text-md md:text-xl text-[#787d8d] mb-8">With 4 Years of Experience in Content Creation</p>
@@ -28,4 +30,4 @@ const Section1: React.FC = () => {
   );
 };
 
-export default Section1;
+export default HomeHero;

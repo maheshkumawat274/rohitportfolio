@@ -1,6 +1,5 @@
 
 import { Helmet } from 'react-helmet'
-import AboutPodcast from '../../components/podcast/AboutPodcast'
 import PodcastVideos from '../../components/podcast/Podcast'
 import PodcastHero from '../../components/podcast/PodcastHero'
 const PodcastPage = () => {
@@ -13,7 +12,6 @@ const PodcastPage = () => {
         <link rel="canonical" href="https://rohitpra.netlify.app/podcast" />
       </Helmet>
     <PodcastHero/>
-     <AboutPodcast/>
      <PodcastVideos/>
     </>
   )

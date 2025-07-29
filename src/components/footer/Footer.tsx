@@ -1,82 +1,124 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SocialMediaIcons from "../contact/SocialMediaIcons";
-
+import BookPodcastBtn from "../btns/BookPodcastBtn";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 const Footer: React.FC = () => {
   return (
     <>
-     <section className="w-full bg-[#1ec258] py-4 px-2 pt-10 pb-10 flex items-center justify-center">
-        <div className="flex items-center text-black font-bold text-lg sm:text-4xl">
-          Need Help ? Chat with Rohit Prashar!
-          <a
-            href="https://wa.me/+918252587182"
-            className="ml-4 px-6 py-2 bg-black text-[#1ec258] rounded-full hover:scale-105 shadow transition font-bold"
-          >
-            WHATSAPP
-          </a>
-        </div>
-      </section>
-       <footer className="w-full bg-[#1ec258] text-black py-14 px-2 sm:px-14 flex flex-col lg:flex-row justify-between items-start text-sm border-t border-[#12130f] gap-4">
-        <div className="mb-4 md:mb-0 md:w-1/3">
-          <h1 className="text-5xl lg-text-6xl sm:text-5xl font-bold">RohitPrashar</h1>
-          <div className="py-14">
-            <SocialMediaIcons/>
+      
+
+      {/* Footer with Background Image and Overlay */}
+      <div className="relative w-full">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('/imgs/about2.jpg')`,
+            backgroundPosition: "top center" // Replace with your actual image path
+          }}
+        />
+
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black opacity-80" />
+
+        {/* WhatsApp Section */}
+       {/* WhatsApp Section */}
+        <section className="relative z-10 w-full py-10 px-2 flex items-center justify-center bg-black/70">
+          <div className="flex items-center text-gray-300 font-bold text-lg sm:text-4xl flex-wrap gap-4 text-center justify-center">
+            Need Help? Chat with Rohit Prashar!
+            <a
+              href="https://wa.me/+918252587182"
+              className="px-6 py-2 bg-white text-gray-900 rounded-full hover:scale-105 shadow transition font-bold border border-gray-500"
+            >
+              WHATSAPP
+            </a>
           </div>
-          <div className="text-lg sm:text-xl text-black">
-            With 5+ years of experience and 100,000+ students, the instructor has
-            helped many people achieve success in the Art & media industry.
+        </section>
+        
+        {/* Content */}
+        <footer className="relative z-10 text-gray-300 py-14 px-2 sm:px-14 flex flex-col lg:flex-row justify-between items-start text-sm gap-4">
+          {/* Left Section */}
+          <div className="mb-4 md:mb-0 md:w-1/3">
+            <h1 className="text-xl sm:text-2xl font-semibold text-green-500">Youtube Channel</h1>
+            <ul className="text-lg space-y-1 py-4">
+              <li>
+                <a 
+                  href="https://www.youtube.com/@therohitprashar/videos" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:underline"
+                >
+                  Rohit Prashar Podcast Videos
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://www.youtube.com/@rohitprasharclips" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:underline"
+                >
+                  Rohit Prashar Clips
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://www.youtube.com/@rohitprasharshorts" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:underline"
+                >
+                  Rohit Prashar Shorts
+                </a>
+              </li>
+            </ul>
+            
           </div>
-        </div>
-        <div className="mb-4 md:mb-0 md:w-1/3">
-          <h4 className="font-bold mb-1 text-2xl sm:text-3xl">Usefull Links</h4>
-          <ul className="text-lg">
-            <li>
-            <Link to='/about'>
-            <a className="hover:underline">
-                About
-              </a>
-            </Link>
-            </li>
-            <li>
-              
-              <Link to='/courses'>
-              <a className="hover:underline">
-                New Courses
-              </a></Link>
-            </li>
-            <li>
-              <Link to='podcast'>
-              <a className="hover:underline">
-                Podcast
-              </a>
-              </Link>
-            </li>
-            <li>
-              <Link to='/contact'>
-              <a className="hover:underline">
-                Contact
-              </a></Link>
-            </li>
-          </ul>
-        </div>
-        <div className="md:w-1/3">
-          <h2 className="font-bold mb-1 text-2xl sm:text-3xl">Contact</h2>
-          <div className="text-lg">
-          <div>Greate Noida , New Delhi 110020</div>
-          <div>+918252587182</div>
-          <div>info@rohitprashar.in</div>
+
+          {/* Useful Links */}
+          <div className="mb-4 md:mb-0 md:w-1/3">
+            <h4 className="font-semibold text-green-500 mb-1 text-xl sm:text-2xl">Useful Links</h4>
+            <ul className="text-lg space-y-1">
+              <li><Link to="/aboutus" className="hover:underline">About Us</Link></li>
+              <li><Link to="/courses" className="hover:underline">New Courses</Link></li>
+              <li><Link to="/podcast" className="hover:underline">Podcast</Link></li>
+              <li><Link to="/consultation_call" className="hover:underline">1:1 Consultation Call</Link></li>
+            </ul>
           </div>
+
+          {/* Contact Info */}
+          <div className="md:w-1/3">
+            <h2 className="font-semibold text-green-500 mb-1 text-xl sm:text-2xl">Contact Us</h2>
+            <div className="text-lg space-y-1">
+               <div className="text-white space-y-2">
+                  <div className="flex items-center gap-2">
+                    <FaPhoneAlt className="text-lg" />
+                    <span>+91 8252587182</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <MdEmail className="text-lg" />
+                    <span>info@rohitprashar.in</span>
+                  </div>
+                </div>
+              <div className="py-2">
+                <BookPodcastBtn/>
+              </div>
+              <div className="space-y-1">
+                <h3>FOLLOW</h3>
+                <SocialMediaIcons/>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        {/* Bottom Bar */}
+        <div className="relative z-10 text-sm sm:text-lg font-bold py-2 text-center text-gray-300 bg-black/70">
+          <span>
+            &copy; 2025 <span className="text-green-500">rohitprashar.com</span> All Rights Reserved
+          </span>
         </div>
-      </footer>
-      <hr className="text-black"/>
-      <div className="font-bold text-xl py-14 text-center bg-[#1ec258] text-black px-2">
-        <span>
-          Designed with{" "}
-          <a href="https://maheshweb.online/" className="underline">
-            Creative mahesh
-          </a>{" "}
-          &copy; Copyright 2025 All Rights Reserved
-        </span>
       </div>
     </>
   );

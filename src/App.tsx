@@ -4,10 +4,10 @@ import Homepage from "./pages/home";
 import AboutPage from "./pages/about";
 import PodcastPage from "./pages/podcast";
 import Coursespage from "./pages/courses";
-import Contactpage from "./pages/contact";
 import FooterPage from "./pages/footer";
 import Headerpage from "./pages/header";
 import ScrollTop from "./components/ScrollTop";
+import ConsultationPage from "./pages/consultation";
 
 
 function App() {
@@ -19,10 +19,10 @@ function App() {
           <ScrollTop/>
           <Routes>
             <Route path="/" element={<Homepage />} />
-            <Route path="/about" element={<AboutPage />} />
+            <Route path="/aboutus" element={<AboutPage />} />
             <Route path="/podcast" element={<PodcastPage />} />
             <Route path="/course" element={<Coursespage />} />
-            <Route path="/contact" element={<Contactpage />} />
+            <Route path="/consultation_call" element={<ConsultationPage />} />
           </Routes>
         </main>
         <FooterPage />
