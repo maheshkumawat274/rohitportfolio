@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
                   rel="noopener noreferrer" 
                   className="hover:underline"
                 >
-                  Rohit Prashar Podcast Videos
+                  Rohit Prashar Youtube Channel
                 </a>
               </li>
               <li>
@@ -116,7 +116,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="relative z-10 text-sm sm:text-lg font-bold py-2 text-center text-gray-300 bg-black/70">
           <span>
-            &copy; 2025 <span className="text-green-500">rohitprashar.com</span> All Rights Reserved
+            &copy; 2025 <span className="text-green-500">Rohitprashar.com</span> All Rights Reserved
           </span>
         </div>
       </div>

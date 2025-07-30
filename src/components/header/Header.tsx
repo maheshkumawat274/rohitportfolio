@@ -38,7 +38,7 @@ const Header: React.FC = () => {
           alt="Profile"
           className="w-12 h-12 rounded-full "
         />
-        <span className="text-gray-300 font-bold text-3xl md:text-4xl">RohitPrashar</span>
+        <span className="text-gray-300 font-bold text-xl md:text-2xl">RohitPrashar</span>
         </Link>
 
 

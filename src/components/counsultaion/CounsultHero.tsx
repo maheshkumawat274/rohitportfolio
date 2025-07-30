@@ -1,40 +1,27 @@
+import React from "react";
 
-
-const ComingSoon = () => {
+const CounsultHero: React.FC = () => {
   return (
     <div
-      className="relative w-full h-screen bg-cover bg-center flex items-center justify-center"
+      className="relative w-full h-[60vh] md:h-[80vh] bg-cover"
       style={{
-        backgroundImage: "url('/imgs/comingsoon.jpg')", // Change this path as per your image
+        backgroundImage: `url('/imgs/home.jpg')`,
+        backgroundPosition: "top center",
       }}
     >
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-60" />
+      {/* Bottom gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
 
-      {/* Content */}
-      <div className="relative z-10 text-center text-white px-4">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          We're Launching Soon
-        </h1>
-        <p className="text-lg md:text-xl mb-6">
-          Our website is under construction. Stay tuned!
-        </p>
-        <form className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="px-4 py-2 rounded-full text-black w-64"
-          />
-          <button
-            type="submit"
-            className="bg-white text-black font-bold px-6 py-2 rounded-full hover:bg-gray-300 transition"
-          >
-            Notify Me
-          </button>
-        </form>
+      {/* Text aligned to bottom center */}
+      <div className="relative z-10 flex items-end justify-center h-full px-2 md:px-20 pb-5">
+        <div className="max-w-3xl text-center">
+          <h2 className="text-xl sm:text-5xl font-bold text-gray-300 leading-relaxed">
+            Unlock Personalized Guidance with 1:1 Consultation
+          </h2>
+        </div>
       </div>
     </div>
   );
 };
 
-export default ComingSoon;
+export default CounsultHero;

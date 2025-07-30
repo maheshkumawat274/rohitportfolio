@@ -1,4 +1,5 @@
 import React from 'react';
+import FeatureBtn from '../btns/FeatureBtn';
 
 interface VideoCard {
   videoId: string;
@@ -55,7 +56,7 @@ const PodcastVideos: React.FC = () => (
         {videoCards.map(({ videoId, title, description, link }) => (
           <div
             key={videoId}
-            className="bg-[#141414] rounded-2xl shadow-lg overflow-hidden flex flex-col"
+            className="bg-[#0D0D0D] rounded-2xl shadow-lg overflow-hidden flex flex-col"
           >
             {/* Responsive YouTube iframe */}
             <div className="aspect-video w-full">
@@ -86,7 +87,10 @@ const PodcastVideos: React.FC = () => (
       </div>
     </div>
     <div className='text-center pt-14'>
-      <a href='https://www.youtube.com/@therohitprashar' className='bg-transparent border border-[#1ec258] hover:bg-[#1ec258] hover:text-white text-[#1ec258] font-bold py-3 px-8 rounded-full text-xl'>Watch More Podcast</a>
+      <a 
+      href='https://www.youtube.com/@therohitprashar'
+      target="_blank"
+      rel="noopener noreferrer"><FeatureBtn/></a>
     </div>
     
   </section>

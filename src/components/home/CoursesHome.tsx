@@ -65,7 +65,7 @@ const CoursesHome: React.FC = () => {
               zIndex: 20 + i,
             }}
           >
-            <div className="   rounded-xl p-6 py-14 flex items-start border border-[#36d23b] shadow-xl bg-[#141414] mb-8 gap-14">
+            <div className="   rounded-xl p-6 py-14 flex items-start border border-[#36d23b] shadow-xl bg-[#0D0D0D] mb-8 gap-14">
               {/* Icon */}
               <div className="hidden sm:block">
                 {iconMap[podcast.category]}

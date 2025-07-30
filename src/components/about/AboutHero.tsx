@@ -13,7 +13,7 @@ const AboutUsHero: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-black/100 via-black/50 to-transparent" />
 
       {/* Text aligned to the left and vertically centered */}
-      <div className="relative z-10 flex items-center h-full px-6 md:px-20">
+      <div className="relative z-10 flex items-center h-full px-2 md:px-20">
         <div className="max-w-2xl text-left">
           <h1 className="text-gray-300 text-3xl md:text-5xl font-bold mb-4">
             About Us

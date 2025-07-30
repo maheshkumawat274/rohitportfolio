@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet"
-import Courses from "../../components/courses/Courses"
+import ComingSoonCourses from "../../components/courses/Courses"
 
 
 const Coursespage = () => {
@@ -12,7 +12,7 @@ const Coursespage = () => {
         <link rel="canonical" href="https://rohitpra.netlify.app/courses" />
       </Helmet>
      <div >
-      <Courses/>
+      <ComingSoonCourses/>
      </div>
     </>
   )

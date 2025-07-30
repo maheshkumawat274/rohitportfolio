@@ -11,8 +11,10 @@ const PodcastPage = () => {
         <meta name="keywords" content="podcast, Rohit Prashar, digital media, freelancing, creative strategies" />
         <link rel="canonical" href="https://rohitpra.netlify.app/podcast" />
       </Helmet>
-    <PodcastHero/>
+    <div className='mt-14'>
+      <PodcastHero/>
      <PodcastVideos/>
+    </div>
     </>
   )
 }

@@ -2,6 +2,7 @@
 // Section1.tsx
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Homebtn1 from '../btns/Homebtn1';
 
 const HomeHero: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const HomeHero: React.FC = () => {
           <p className="text-2xl md:text-4xl text-[#d5d0cd] mb-2">Build Your Digital Presence with Rohit Prashar</p>
           <p className="text-md md:text-xl text-[#787d8d] mb-8">With 4 Years of Experience in Content Creation</p>
           <div className="flex space-x-4">
-            <button className="bg-[#1ec258] hover:bg-[#0a350e] text-white font-bold py-3 px-4 sm:px-8 rounded-full text-md sm:text-xl"><Link to='/podcast'>Watch My Podcasts</Link></button>
+            <button><Link to='/podcast'><Homebtn1/></Link></button>
             <button className="bg-transparent border border-[#1ec258] hover:bg-[#1ec258] hover:text-white text-[#1ec258] font-bold py-3 px-4 sm:px-8 rounded-full text-md sm:text-xl">
               <a href="https://calendly.com/rohitprasharwork/30min"
               target="_blank"

@@ -38,7 +38,7 @@ const FeaturedPodcastHome: React.FC = () => (
         {videoCards.map(({ videoId, title, description, link }) => (
           <div
             key={videoId}
-            className="bg-[#141414] rounded-2xl shadow-lg overflow-hidden flex flex-col"
+            className="bg-[#0D0D0D] rounded-2xl shadow-lg overflow-hidden flex flex-col"
           >
             {/* Responsive YouTube iframe */}
             <div className="aspect-video w-full">
