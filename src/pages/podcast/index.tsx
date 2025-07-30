@@ -2,6 +2,7 @@
 import { Helmet } from 'react-helmet'
 import PodcastVideos from '../../components/podcast/Podcast'
 import PodcastHero from '../../components/podcast/PodcastHero'
+import WhyPodcast from '../../components/podcast/WhyPodcast'
 const PodcastPage = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const PodcastPage = () => {
     <div className='mt-14'>
       <PodcastHero/>
      <PodcastVideos/>
+     <WhyPodcast/>
     </div>
     </>
   )
