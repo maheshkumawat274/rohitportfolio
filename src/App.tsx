@@ -9,7 +9,6 @@ import Headerpage from "./pages/header";
 import ScrollTop from "./components/ScrollTop";
 import ConsultationPage from "./pages/consultation";
 import CustomCursor from "./components/CustomCursor";
-import SmoothScroll from "./components/ScrollSmooth";
 
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <div className="hidden md:block">
         <CustomCursor/>
       </div>
-      <SmoothScroll>
       <div className="flex flex-col min-h-screen bg-[#0b0b0c] text-[#d5d0cd]">
         <Headerpage />
         <main className="flex-grow">
@@ -34,7 +32,6 @@ function App() {
         </main>
         <FooterPage />
       </div>
-      </SmoothScroll>
     </Router>
   );
 }
