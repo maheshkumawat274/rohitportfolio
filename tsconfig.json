@@ -1,4 +1,10 @@
 {
+  "compilerOptions": {
+    "baseUrl": ".", // Required for paths to work
+    "paths": {
+      "@/*": ["src/*"] // Adjust if your components are not in src
+    }
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },

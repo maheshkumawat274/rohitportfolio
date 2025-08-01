@@ -3,7 +3,7 @@ import SocialMediaIcons from "../contact/SocialMediaIcons";
 
 const AboutHome: React.FC = () => {
   return (
-    <section className="bg-black py-16 px-2 sm:px-14">
+    <section className="bg-black py-6 md:py-16 px-2 sm:px-14">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center md:space-x-16">
         {/* Left Side Image with Background */}
         <div className="w-full md:w-1/2 flex justify-center">

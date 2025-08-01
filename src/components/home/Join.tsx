@@ -11,7 +11,7 @@ const Join: React.FC = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="text-3xl md:text-5xl font-semibold leading-snug mb-6">
+        <h1 className="text-3xl md:text-5xl text-center font-bold leading-snug mb-6">
           Join the community
         </h1>
       </motion.div>

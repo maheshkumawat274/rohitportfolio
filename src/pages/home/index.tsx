@@ -6,6 +6,8 @@ import AboutHome from '../../components/home/AboutHome'
 import FeaturedPodcastHome from '../../components/home/FeaturedPodcastHome'
 import CoursesHome from '../../components/home/CoursesHome'
 import ContactHome from '../../components/home/ContactHome'
+import ImageCursorHome from '../../components/home/ImageCursorHome'
+import { TextScrollDemo } from '../../components/home/TextScrollHome'
 
 const Homepage = () => {
   return (
@@ -19,9 +21,13 @@ const Homepage = () => {
 
     <div className='mt-14 pt-3 sm:pt-4 '>
     <HomeHero/>
+    <TextScrollDemo/>
     <AboutHome/>
     <FeaturedPodcastHome/>
     <CoursesHome/>
+     <div className='hidden md:block'>
+      <ImageCursorHome/>
+     </div>
     <Join/>
     <ContactHome/>
     </div>
