@@ -8,14 +8,12 @@ import FooterPage from "./pages/footer";
 import Headerpage from "./pages/header";
 import ScrollTop from "./components/ScrollTop";
 import ConsultationPage from "./pages/consultation";
-import CustomCursor from "./components/CustomCursor";
 
 
 function App() {
   return (
     <Router>
       <div className="hidden md:block">
-        <CustomCursor/>
       </div>
       <div className="flex flex-col min-h-screen bg-[#0b0b0c] text-[#d5d0cd]">
         <Headerpage />
