@@ -26,6 +26,7 @@ const ContactHome: React.FC = () => {
             <label className="text-sm" htmlFor="name">Name <span className="text-red-500">*</span></label>
             <input
               id="name"
+              placeholder='Enter Your Name'
               type="text"
               className="bg-[#1c1c1c] border-2 border-transparent hover:border-2 hover:border-green-400 rounded-md px-4 py-3 outline-none"
               required
@@ -36,6 +37,7 @@ const ContactHome: React.FC = () => {
             <label className="text-sm" htmlFor="email">Email Address <span className="text-red-500">*</span></label>
             <input
               id="email"
+              placeholder='xyz@gmail.com'
               type="email"
               className="bg-[#1c1c1c] border-2 border-transparent hover:border-2 hover:border-green-400 rounded-md px-4 py-3 outline-none"
               required
