@@ -17,7 +17,10 @@ const BookPodcastBtn = () => {
           <a 
             href='https://calendly.com/rohitprasharwork/30min?month=2025-07'
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+            className= "text-white hover:text-green-400"  
+            >
+            
             Book Your Podcast
           </a>
           <svg

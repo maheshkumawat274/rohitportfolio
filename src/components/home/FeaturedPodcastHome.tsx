@@ -33,7 +33,7 @@ const videoCards: VideoCard[] = [
 const FeaturedPodcastHome: React.FC = () => (
   <section className="py-6 md:py-16 px-2 sm:px-6 bg-black">
     <div className="max-w-7xl mx-auto">
-      <h2 className="text-4xl sm:text-6xl text-gray-300 font-bold text-center mb-12">Featured Podcast Videos</h2>
+      <h2 className="text-4xl sm:text-6xl text-gray-300 font-bold text-center mb-12">Watch my podcasts</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {videoCards.map(({ videoId, title, description, link }) => (
           <div

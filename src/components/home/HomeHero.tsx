@@ -8,8 +8,8 @@ const HomeHero: React.FC = () => {
   return (
     
     <section
-      className="w-full h-[70vh] md:h-screen flex items-center bg-cover bg-[70%_center] lg:bg-center"
-      style={{ backgroundImage: "url('/imgs/home.jpg')" }} // 👈 your background img
+      className="w-full  h-[60vh] md:h-[80vh] flex items-center bg-cover bg-[70%_center] lg:bg-center"
+      style={{ backgroundImage: "url('/imgs/home.jpg')",backgroundPosition: "top center", }} // 👈 your background img
     >
      <div className="absolute h-[80.5vh] md:h-[110.5vh] inset-0 bg-gradient-to-r from-black/100 via-black/40 to-transparent"></div>
 
@@ -23,7 +23,7 @@ const HomeHero: React.FC = () => {
             <button className="bg-transparent border border-white sm:border-[#1ec258] hover:bg-[#1ec258] hover:text-white text-white sm:text-[#1ec258] font-bold py-3 px-4 sm:px-8 rounded-full text-md sm:text-xl ease-in">
               <a href="https://calendly.com/rohitprasharwork/30min"
               target="_blank"
-              rel="noopener noreferrer">↳ Schedule a Consultation</a>
+              rel="noopener noreferrer">↳ Book Your Podcast</a>
             </button>
           </div>
         </div>

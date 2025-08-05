@@ -17,7 +17,7 @@ const iconMap: Record<string, React.ReactNode> = {
 const podcasts = [
   {
     title: 'YouTube Growth & Monetization',
-    category: 'Branding',
+    category: 'Youtube',
     desc: 'Learn powerful brand processes with digital strategies, logo design, modern branding.',
     
   },
@@ -51,8 +51,8 @@ const CoursesHome: React.FC = () => {
   return (
     <section className="bg-black relative px-2 sm:px-4 py-4 min-h-[150vh]" style={{ zIndex: 10 }}>
       <div className='text-center pb-5 text-gray-300'>
-      <h1 className='text-3xl sm:text-6xl font-bold'>Courses (Coming Soon...🚀)</h1>
-      <p className='text-lg pt-2'>Level Up Your Skills with Rohit Prashar – Exclusive Courses Coming Soon!</p>
+      <h1 className='text-3xl sm:text-6xl font-bold'>Courses</h1>
+      <p className='text-2xl sm:text-4xl pt-2 font-bold'>We're Launching Soon</p>
       <p className='text-lg font-bold'>Topics You'll Learn</p>
      </div>
       <div className="relative">

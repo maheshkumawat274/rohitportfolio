@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
                   rel="noopener noreferrer" 
                   className="hover:underline"
                 >
-                  Rohit Prashar Youtube Channel
+                  Rohit Prashar main channel
                 </a>
               </li>
               <li>
