@@ -6,8 +6,10 @@ import CounsultHero from "../../components/counsultaion/CounsultHero"
 const ConsultationPage = () => {
   return (
     <>
-     <CounsultHero/>
+     <div className="mt-14">
+      <CounsultHero/>
      <CounsultCards/>
+     </div>
     </>
   )
 }

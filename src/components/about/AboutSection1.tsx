@@ -1,38 +1,40 @@
 import React from "react";
 
 const AboutSection1: React.FC = () => {
-  return (
-    <section className="bg-black py-0 md:py-16 px-2 sm:px-14">
-      <div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-16">
-        {/* Left Side Image with Background */}
-        <div className="w-full mb-12 md:mb-0  md:text-left">
-          
+  const content = `Back in 2019, during my Class 10 days, I had no idea where life was headed. I wasn’t good at studies, and there were moments I felt completely lost. I spent 2 years just overthinking — feeling left behind while everyone else seemed to be moving ahead. I used to see others with clear goals and confidence, and it made me question myself even more.
 
-          <h2 className="mt-4 text-4xl md:text-6xl font-bold leading-tight text-gray-300">
-            Discover My <br />
-            Design Journey
+But somewhere deep inside, I had a spark — a small interest in creating something, anything. That’s when I picked up a camera and shot my first vlog. It wasn’t perfect, but it gave me a new feeling — that maybe, I could do something.
+
+That first step — though small — changed everything.`;
+
+  return (
+    <section className="bg-black py-4 md:py-16 px-4 md:px-20">
+      <div className=" mx-auto flex flex-col lg:flex-row items-center gap-10">
+        {/* Left: Text (on large screens text stays left) */}
+        <div className="w-full lg:w-1/2 text-center md:text-left">
+          <h2 className="mt-2 text-3xl md:text-5xl font-bold leading-tight text-gray-300">
+            2019 – Class 10
           </h2>
 
-          <p className="mt-6 text-gray-500  mx-auto md:mx-0">
-            Hello! I’m Rohit Prashar, a passionate content creator with over 5+ years of
-            experience in creating engaging videos, podcasts, and social media content. My
-            goal is to bring your vision to life through compelling digital content.
+          <p className="mt-6 text-gray-400 whitespace-pre-line  mx-auto lg:mx-0">
+            {content}
           </p>
 
-          
+          <p className="mt-6 text-lg font-bold text-gray-300">
+            That first step — though small — changed everything.
+          </p>
         </div>
 
-        {/* Right Text */}
-        
-        <div className="w-full md:w-1/2 flex justify-center">
-          <div className="relative w-[400px] h-[400px] sm:w-[600px] sm:h-[450px] rounded-3xl overflow-hidden">
+        {/* Right: Image (will occupy full width of its column on large screens) */}
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+          <div className="relative w-full h-72 sm:h-100 lg:h-[520px] rounded-3xl overflow-hidden">
             {/* Green Background Box */}
-            <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-200 rounded-3xl z-0"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-200 rounded-3xl z-0" />
 
             {/* Image */}
             <img
-              src="/imgs/about1.jpg"
-              alt="Profile"
+              src="/imgs/2019.jpg"
+              alt="2019 - Class 10"
               className="relative z-10 w-full h-full object-cover rounded-3xl"
             />
           </div>

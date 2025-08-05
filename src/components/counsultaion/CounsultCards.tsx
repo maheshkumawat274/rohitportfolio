@@ -35,15 +35,15 @@ const cardData = [
 const CounsultCards = () => {
   return (
     <section className="bg-black py-10 px-4">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-6">
         {cardData.map((card, i) => (
           <div
             key={i}
             className="border border-white rounded-xl p-6 bg-black shadow-md transition-transform transform hover:scale-101 hover:shadow-[0_0_8px_#1ec258] flex flex-col items-start"
           >
             <div className="mb-4">{card.icon}</div>
-            <h2 className="text-xl font-bold text-gray-300 mb-3">{card.title}</h2>
-            <p className="text-gray-500 mb-5">{card.desc}</p>
+            <h2 className="text-2xl sm:text-4xl font-bold text-gray-300 mb-3">{card.title}</h2>
+            <p className="text-gray-500 mb-5 text-md sm:text-lg">{card.desc}</p>
             <a
               href={card.link}
               target="_blank"

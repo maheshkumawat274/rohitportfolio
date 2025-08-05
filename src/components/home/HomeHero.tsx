@@ -22,7 +22,7 @@ const HomeHero: React.FC = () => {
           <p className="text-md md:text-xl text-gray-300 mb-8">With 4 Years of Experience in Content Creation</p>
           <div className="block sm:flex space-y-2 text-center sm:text-start sm:space-x-4">
             <button><Link to='/podcast'><Homebtn1/></Link></button>
-            <button className="bg-transparent border border-white sm:border-[#1ec258] hover:bg-[#1ec258] hover:text-white text-white sm:text-[#1ec258] font-bold py-3 px-4 sm:px-8 rounded-lg text-md sm:text-xl ease-in">
+            <button className="bg-transparent border border-white sm:border-[#1ec258] hover:bg-[#1ec258] hover:text-white text-white sm:text-[#1ec258] font-bold py-3 px-4 sm:px-8 rounded-lg text-md sm:text-xl transitions ease-in">
               <a href="https://calendly.com/rohitprasharwork/30min"
               target="_blank"
               rel="noopener noreferrer">↳ Book Your Podcast</a>

@@ -1,9 +1,9 @@
 
 import { Helmet } from 'react-helmet'
 import AboutUsHero from '../../components/about/AboutHero'
-import AboutHome from '../../components/home/AboutHome'
 import AboutSection1 from '../../components/about/AboutSection1'
 import AboutSection2 from '../../components/about/AboutSection2'
+import AboutSection3 from '../../components/about/AboutSectione3'
 
 const AboutPage = () => {
   return (
@@ -16,9 +16,9 @@ const AboutPage = () => {
       </Helmet>
     <div className='mt-14'>
       <AboutUsHero/>
-      <AboutHome/>
       <AboutSection1/>
       <AboutSection2/>
+      <AboutSection3/>
     </div>
 
     </>

@@ -1,5 +1,6 @@
 import React from "react";
 import SocialMediaIcons from "../contact/SocialMediaIcons";
+import { Link } from "react-router-dom";
 
 const AboutHome: React.FC = () => {
   return (
@@ -32,10 +33,12 @@ const AboutHome: React.FC = () => {
           </h2>
 
           <p className="mt-6 text-gray-500 max-w-lg mx-auto md:mx-0">
-            Hello! I’m Rohit Prashar, a passionate content creator with over 5+ years of
-            experience in creating engaging videos, podcasts, and social media content. My
-            goal is to bring your vision to life through compelling digital content.
+            Hi, I’m Rohit Prashar — a content creator passionate about helping students, creators, and brands grow through impactful content.
+            Through my YouTube channel, I guide college students in learning new skills, starting freelancing, finding internships, and even launching startups.
           </p>
+          <Link to='/aboutus'>
+           <button className="inline-flex items-center px-4 py-2 border border-[#1ec258] text-[#1ec258] rounded-lg hover:bg-[#1ec258] hover:text-black transitions mt-3 cursor-pointer">View more</button>
+          </Link>
 
           <div className="mt-8">
             <SocialMediaIcons />
