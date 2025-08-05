@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 
 const iconMap: Record<string, React.ReactNode> = {
-  Branding: <FaBullhorn className="w-16 h-16 text-[#1ec258]" />,
+  Youtube: <FaBullhorn className="w-16 h-16 text-[#1ec258]" />,
   Design: <FaPencilRuler className="w-16 h-16 text-[#1ec258]" />,
   'Video Editing': <FaVideo className="w-16 h-16 text-[#1ec258]" />,
   Podcast: <FaPodcast className="w-16 h-16 text-[#1ec258]" />,
@@ -51,7 +51,7 @@ const CoursesHome: React.FC = () => {
   return (
     <section className="bg-black relative px-2 sm:px-4 py-4 min-h-[150vh]" style={{ zIndex: 10 }}>
       <div className='text-center pb-5 text-gray-300'>
-      <h1 className='text-3xl sm:text-6xl font-bold'>Courses</h1>
+      <h1 className='text-3xl sm:text-6xl font-bold'>Courses We Offer</h1>
       <p className='text-2xl sm:text-4xl pt-2 font-bold'>We're Launching Soon</p>
       <p className='text-lg font-bold'>Topics You'll Learn</p>
      </div>

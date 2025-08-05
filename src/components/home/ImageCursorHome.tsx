@@ -28,7 +28,7 @@ const ImageCursorHome: React.FC = () => {
     >
       <article className="relative z-20 flex flex-col items-center justify-center">
         <h1 className="max-w-2xl text-center text-5xl font-bold text-gray-300 tracking-tight">
-          Rohit Prashar – Where Conversations Come to Life
+          Rohit Prashar – Gallery
         </h1>
       </article>
     </ImageCursorTrail>

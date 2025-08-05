@@ -5,6 +5,7 @@ import {
   Globe,
   Radio,
   BrainCircuit,
+  DollarSign
 } from "lucide-react"; // icons from lucide-react
 
 const cards = [
@@ -37,6 +38,12 @@ const cards = [
     title: "Develop Communication Skills",
     description:
       "Enhance your clarity, storytelling, and confidence by consistently speaking on topics you love.",
+  },
+  {
+    icon: <DollarSign className="text-green-500 w-8 h-8" />, // new icon
+    title: "Monetize Your Passion",
+    description:
+      "Turn your podcast into a revenue stream through sponsorships, ads, and premium content.",
   },
 ];
 

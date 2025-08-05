@@ -23,7 +23,6 @@ const AboutHome: React.FC = () => {
         {/* Right Text */}
         <div className="w-full md:w-1/2 mb-12 md:mb-0  md:text-left">
           <span className="inline-flex items-center text-black text-sm uppercase tracking-wide bg-white border border-gray-300 px-3 py-1 rounded-full">
-            <span className="w-2 h-2 bg-green-400 rounded-full mr-2 block"></span>
             About Me
           </span>
 

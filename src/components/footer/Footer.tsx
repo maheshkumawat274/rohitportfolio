@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: `url('/imgs/about2.jpg')`,
-            backgroundPosition: "top center" // Replace with your actual image path
+            backgroundPosition: "top center"
           }}
         />
 
@@ -114,7 +114,7 @@ const Footer: React.FC = () => {
         </footer>
 
         {/* Bottom Bar */}
-        <div className="relative z-10 text-sm sm:text-lg font-bold py-2 text-center text-gray-300 bg-black/70">
+        <div className="relative z-10 text-sm sm:text-lg font-bold py-6 text-center text-gray-300 bg-black/70">
           <span>
             &copy; 2025 <span className="text-green-500">Rohitprashar.com</span> All Rights Reserved
           </span>

@@ -75,7 +75,7 @@ const ContactHome: React.FC = () => {
 
           <button
             type="submit"
-            className="bg-green-400 text-black font-bold px-6 py-2 rounded-full w-24 hover:bg-lime-500"
+            className="hover:bg-green-400 text-white hover:text-black border-2 border-white font-bold cursor-pointer py-2 rounded-full w-24"
           >
             Submit
           </button>

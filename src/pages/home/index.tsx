@@ -7,7 +7,7 @@ import FeaturedPodcastHome from '../../components/home/FeaturedPodcastHome'
 import CoursesHome from '../../components/home/CoursesHome'
 import ContactHome from '../../components/home/ContactHome'
 import ImageCursorHome from '../../components/home/ImageCursorHome'
-import { TextScrollDemo } from '../../components/home/TextScrollHome'
+import TextScrollDemo from '../../components/home/TextScrollHome'
 
 const Homepage = () => {
   return (

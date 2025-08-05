@@ -14,9 +14,9 @@ const CounsultHero: React.FC = () => {
 
       {/* Text aligned to bottom center */}
       <div className="relative z-10 flex items-end justify-center h-full px-2 md:px-20 pb-5">
-        <div className="max-w-3xl text-center">
+        <div className="max-w-5xl text-center">
           <h2 className="text-xl sm:text-5xl font-bold text-gray-300 leading-relaxed">
-            Unlock Personalized Guidance with 1:1 Consultation
+           🧠 1:1 Consultation Call with Rohit Prashar
           </h2>
         </div>
       </div>
