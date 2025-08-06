@@ -85,13 +85,13 @@ const FeaturedPodcastHome: React.FC = () => {
   }, [openVideoId]);
 
   return (
-    <section className="py-6 md:py-16 px-2 sm:px-6 bg-black">
+    <section className="py-0 md:py-16 px-2 sm:px-6 bg-black">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl sm:text-6xl text-gray-300 font-bold text-center mb-12">
-          Watch my podcasts
+        <h2 className="text-5xl sm:text-6xl text-gray-300 font-bold text-center mb-4">
+          Watch My Podcasts
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-aos="fade-down">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-aos="zoom-in">
           {videoCards.map(({ videoId, title, description, link }) => {
             const id = cleanId(videoId);
             return (

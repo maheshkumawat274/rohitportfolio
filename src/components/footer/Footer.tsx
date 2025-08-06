@@ -15,8 +15,7 @@ const Footer: React.FC = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/imgs/about2.jpg')`,
-            backgroundPosition: "top center"
+            backgroundImage: `url('/imgs/dr taruna work.png')`,
           }}
         />
 
@@ -38,10 +37,11 @@ const Footer: React.FC = () => {
         </section>
         
         {/* Content */}
-        <footer className="relative z-10 text-gray-300 py-14 px-2 sm:px-14 flex flex-col lg:flex-row justify-between items-start text-sm gap-4">
+        <footer className="relative z-10 text-gray-300 py-14 px-4 lg:px-14 flex flex-col lg:flex-row justify-between items-start text-sm gap-4">
           {/* Left Section */}
-          <div className="mb-4 md:mb-0 md:w-1/3">
-            <h1 className="text-xl sm:text-2xl font-semibold text-green-500">Youtube Channel</h1>
+          <div className="mb-4 md:mb-0 md:w-1/3 px-0 lg:px-8">
+            <div>
+              <h1 className="text-xl sm:text-2xl font-semibold text-green-500">Youtube Channel</h1>
             <ul className="text-lg space-y-1 py-4">
               <li>
                 <a 
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
                   rel="noopener noreferrer" 
                   className="hover:underline"
                 >
-                  Rohit Prashar main channel
+                  Rohit Prashar Main Channel
                 </a>
               </li>
               <li>
@@ -74,11 +74,12 @@ const Footer: React.FC = () => {
                 </a>
               </li>
             </ul>
+            </div>
             
           </div>
 
           {/* Useful Links */}
-          <div className="mb-4 md:mb-0 md:w-1/3">
+          <div className="mb-4 md:mb-0 md:w-1/3 px-0 lg:px-8">
             <h4 className="font-semibold text-green-500 mb-1 text-xl sm:text-2xl">Useful Links</h4>
             <ul className="text-lg space-y-1">
               <li><Link to="/aboutus" className="hover:underline">About Us</Link></li>
