@@ -28,7 +28,7 @@ Through my YouTube channel, I guide college students in learning new skills, sta
         
         {/* Left: Image */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start" data-aos="fade-up">
-          <div className="relative w-full h-72 sm:h-100 lg:h-[450px] rounded-2xl overflow-hidden">
+          <div className="relative w-full h-72 sm:h-100 lg:h-[520px] rounded-2xl overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-200 opacity-90 rounded-2xl" />
             <img
               src="/imgs/abouthome.jpg"

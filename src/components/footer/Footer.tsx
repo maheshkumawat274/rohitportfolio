@@ -10,12 +10,13 @@ const Footer: React.FC = () => {
       
 
       {/* Footer with Background Image and Overlay */}
-      <div className="relative w-full pt-10">
+      <div className="relative w-full">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: `url('/imgs/dr taruna work.png')`,
+            backgroundPosition:'top center'
           }}
         />
 
@@ -24,7 +25,17 @@ const Footer: React.FC = () => {
 
         {/* WhatsApp Section */}
        {/* WhatsApp Section */}
-        
+        <section className="relative z-10 w-full py-10 px-2 flex items-center justify-center bg-black/70">
+          <div className="flex items-center text-gray-300 font-bold text-lg sm:text-4xl flex-wrap gap-4 text-center justify-center">
+            Need Help? Chat with Rohit Prashar!
+            <a
+              href="https://wa.me/+918252587182"
+              className="px-6 py-2 bg-white text-gray-900 rounded-full hover:scale-105 shadow transition font-bold border border-gray-500"
+            >
+              WHATSAPP
+            </a>
+          </div>
+        </section>
         
         {/* Content */}
         <footer className="relative z-10 text-gray-300 py-14 px-4 lg:px-14 flex flex-col lg:flex-row justify-between items-start text-sm gap-4">
