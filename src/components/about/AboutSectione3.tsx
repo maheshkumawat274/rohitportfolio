@@ -31,7 +31,7 @@ Through my YouTube channel, I guide college students in learning new skills, sta
           <div className="relative w-full h-72 sm:h-100 lg:h-[450px] rounded-2xl overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-200 opacity-90 rounded-2xl" />
             <img
-              src="/imgs/home.jpg"
+              src="/imgs/abouthome.jpg"
               alt="Rohit Prashar"
               className="relative z-10 w-full h-full object-cover rounded-2xl"
             />
