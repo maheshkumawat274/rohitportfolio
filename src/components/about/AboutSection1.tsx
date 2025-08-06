@@ -11,7 +11,7 @@ That first step — though small — changed everything.`;
     <section className="bg-black py-4 md:py-16 px-4 md:px-20">
       <div className=" mx-auto flex flex-col lg:flex-row items-center gap-10">
         {/* Left: Text (on large screens text stays left) */}
-        <div className="w-full lg:w-1/2 text-center md:text-left">
+        <div className="w-full lg:w-1/2 text-center md:text-left"data-aos="fade-up" >
           <h2 className="mt-2 text-3xl md:text-5xl font-bold leading-tight text-gray-300">
             2019 – Class 10
           </h2>
@@ -26,7 +26,7 @@ That first step — though small — changed everything.`;
         </div>
 
         {/* Right: Image (will occupy full width of its column on large screens) */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end"data-aos="fade-up" >
           <div className="relative w-full h-72 sm:h-100 lg:h-[520px] rounded-3xl overflow-hidden">
             {/* Green Background Box */}
             <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-200 rounded-3xl z-0" />

@@ -91,7 +91,7 @@ const FeaturedPodcastHome: React.FC = () => {
           Watch my podcasts
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-aos="fade-down">
           {videoCards.map(({ videoId, title, description, link }) => {
             const id = cleanId(videoId);
             return (

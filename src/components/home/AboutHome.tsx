@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const AboutHome: React.FC = () => {
   return (
-    <section className="bg-black py-6 md:py-16 px-2 sm:px-14">
+    <section className="bg-black py-6 md:py-16 px-2 sm:px-14" >
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center md:space-x-16">
         {/* Left Side Image with Background */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center"data-aos="zoom-in" >
           <div className="relative w-[400px] h-[400px] sm:w-[600px] sm:h-[450px] rounded-3xl overflow-hidden">
             {/* Green Background Box */}
             <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-200 rounded-3xl z-0"></div>
@@ -22,7 +22,7 @@ const AboutHome: React.FC = () => {
         </div>
 
         {/* Right Text */}
-        <div className="w-full md:w-1/2 mb-12 md:mb-0  md:text-left">
+        <div className="w-full md:w-1/2 mb-12 md:mb-0  md:text-left"data-aos="zoom-in" >
           <span className="inline-flex items-center text-black text-sm uppercase tracking-wide bg-white border border-gray-300 px-3 py-1 rounded-full">
             About Me
           </span>

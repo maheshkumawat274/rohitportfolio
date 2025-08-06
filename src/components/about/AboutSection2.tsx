@@ -24,7 +24,7 @@ That one thought gave me strength every day. It shaped my discipline, my work-et
       <div className="mx-auto flex flex-col-reverse lg:flex-row items-center gap-10">
         
         {/* Left: Image */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start" data-aos="fade-up" >
           <div className="relative w-full h-72 sm:h-100 lg:h-[520px] rounded-3xl overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-200 rounded-3xl z-0" />
             <img
@@ -36,7 +36,7 @@ That one thought gave me strength every day. It shaped my discipline, my work-et
         </div>
 
         {/* Right: Text */}
-        <div className="w-full lg:w-1/2 text-center md:text-left ">
+        <div className="w-full lg:w-1/2 text-center md:text-left " data-aos="fade-up" >
           <h2 className="mt-4 text-3xl md:text-5xl font-bold leading-tight text-gray-300">
             2021 – College Start
           </h2>

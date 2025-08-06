@@ -35,7 +35,7 @@ const cardData = [
 const CounsultCards = () => {
   return (
     <section className="bg-black py-10 px-4">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-6">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-6"data-aos="fade-up" >
         {cardData.map((card, i) => (
           <div
             key={i}

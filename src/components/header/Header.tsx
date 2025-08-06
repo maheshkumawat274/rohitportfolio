@@ -10,14 +10,14 @@ const navLinks = [
   { name: "Home", to: "/" },
   { name: "About Us", to: "/aboutus" },
   { name: "Podcast", to: "/podcast" },
-  { name: "Course", to: "/course" },
+  { name: "Course", to: "/courses" },
   { name: "1:1 Consultation Call", to: "/consultation_call" },
 ];
 const navLinksmobile = [
   { name: "Home", to: "/", icon: <Home size={20} /> },
   { name: "About Us", to: "/aboutus", icon: <User size={20} /> },
   { name: "Podcast", to: "/podcast", icon: <Mic size={20} /> },
-  { name: "Course", to: "/course", icon: <BookOpen size={20} /> },
+  { name: "Course", to: "/courses", icon: <BookOpen size={20} /> },
   { name: "1:1 Consultation Call", to: "/consultation_call", icon: <Mail size={20} /> },
 ];
 
@@ -46,16 +46,16 @@ const Header: React.FC = () => {
         <nav className="hidden lg:flex space-x-8">
           {navLinks.map(link => (
            <Link
-  key={link.to}
-  to={link.to}
-  className={`text-lg font-medium transition-all duration-150 border-b-2 ${
-    pathname === link.to
-      ? "text-[#1ec258] border-[#1ec258]"
-      : "text-gray-300 border-transparent hover:text-[#1ec258] hover:border-[#1ec258]"
-  }`}
->
-  {link.name}
-</Link>
+             key={link.to}
+             to={link.to}
+             className={`text-lg font-medium transition-all duration-150 border-b-2 ${
+               pathname === link.to
+                 ? "text-[#1ec258] border-[#1ec258]"
+                 : "text-gray-300 border-transparent hover:text-[#1ec258] hover:border-[#1ec258]"
+             }`}
+           >
+             {link.name}
+           </Link>
 
           ))}
         </nav>

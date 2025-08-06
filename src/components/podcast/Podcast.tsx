@@ -69,7 +69,7 @@ const PodcastVideos: React.FC = () => {
         <h1 className="text-4xl sm:text-6xl text-gray-300 font-bold text-center mb-3">Top podcasts:</h1>
         <p className="text-xl sm:text-2xl text-gray-500 font-semibold text-center mb-12">Discover the selection of the most popular podcasts.</p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8"data-aos="fade-up" >
           {videoCards.map(({ videoId, title, description, link }) => {
             const id = cleanId(videoId);
             return (

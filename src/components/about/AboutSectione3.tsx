@@ -27,7 +27,7 @@ Through my YouTube channel, I guide college students in learning new skills, sta
       <div className="mx-auto flex flex-col lg:flex-row items-center gap-10">
         
         {/* Left: Text */}
-        <div className="w-full lg:w-1/2 text-center md:text-left">
+        <div className="w-full lg:w-1/2 text-center md:text-left" data-aos="fade-up" >
           <h2 className="text-3xl md:text-5xl font-bold text-gray-200 leading-tight">
             Now I help students, creators, and brands grow through content.
           </h2>
@@ -47,7 +47,7 @@ Through my YouTube channel, I guide college students in learning new skills, sta
         </div>
 
         {/* Right: Image */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end" data-aos="fade-up" >
           <div className="relative w-full h-72 sm:h-100 lg:h-[450px] rounded-2xl overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-200 opacity-90 rounded-2xl" />
             <img

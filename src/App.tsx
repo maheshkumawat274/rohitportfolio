@@ -9,22 +9,25 @@ import Headerpage from "./pages/header";
 import ScrollTop from "./components/ScrollTop";
 import ConsultationPage from "./pages/consultation";
 
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 800, once: false });
+  }, []);
   return (
     <Router>
-      <div className="hidden md:block">
-      </div>
       <div className="flex flex-col min-h-screen bg-[#0b0b0c] text-[#d5d0cd]">
         <Headerpage />
-        <main className="flex-grow">
+        <main className="flex-grow ">
           
           <ScrollTop/>
           <Routes>
             <Route path="/" element={<Homepage />} />
-            <Route path="/aboutus" element={<AboutPage />} />
+            <Route path="/aboutus" element={<AboutPage  />} />
             <Route path="/podcast" element={<PodcastPage />} />
-            <Route path="/course" element={<Coursespage />} />
+            <Route path="/courses" element={<Coursespage />} />
             <Route path="/consultation_call" element={<ConsultationPage />} />
           </Routes>
         </main>
