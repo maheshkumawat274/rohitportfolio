@@ -53,7 +53,7 @@ Through my YouTube channel, I guide college students in learning new skills, sta
               onClick={() => setExpanded((prev) => !prev)}
               className="inline-flex items-center px-4 py-2 border border-[#1ec258] text-[#1ec258] rounded-lg hover:bg-[#1ec258] hover:text-black transition"
             >
-              {expanded ? "View less" : "View more"}
+              {expanded ? "View less" : "View more"} 
             </button>
           </div>
         </div>
