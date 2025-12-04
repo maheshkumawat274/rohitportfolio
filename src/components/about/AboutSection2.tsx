@@ -20,7 +20,7 @@ I used to skip outings to watch YouTube tutorials. Late nights, self-doubt, but 
 That one thought gave me strength every day. It shaped my discipline, my work-ethic, and the way I approach building content and helping others do the same.`;
 
   return (
-    <section className="bg-black px-4 md:px-20 py-4 md:py-14">
+    <section className="bg-black px-4 md:px-20 py-4 md:py-8">
       <div className="mx-auto flex flex-col-reverse lg:flex-row items-center gap-10">
         
         {/* Left: Text */}

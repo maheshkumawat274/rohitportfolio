@@ -23,7 +23,7 @@ Through my YouTube channel, I guide college students in learning new skills, sta
 `;
 
   return (
-    <section className="bg-black py-8 md:py-16 px-4 md:px-20">
+    <section className="bg-black py-8 px-4 md:px-20">
       <div className="mx-auto flex flex-col lg:flex-row items-center gap-10">
         
         {/* Left: Image */}

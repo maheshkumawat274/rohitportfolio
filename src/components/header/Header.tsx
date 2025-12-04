@@ -5,12 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import SocialMediaIcons from "../contact/SocialMediaIcons";
 import { Home, User,Mic, Mail, BookOpen } from "lucide-react";
 import BookPodcastBtn from "../btns/BookPodcastBtn";
-
+import "./header.css";
 const navLinks = [
   { name: "Home", to: "/" },
   { name: "About Us", to: "/aboutus" },
   { name: "Podcast", to: "/podcast" },
   { name: "Course", to: "/courses" },
+  { name: "Book", to: "/book" },
   { name: "1:1 Consultation Call", to: "/consultation_call" },
 ];
 const navLinksmobile = [
@@ -18,6 +19,7 @@ const navLinksmobile = [
   { name: "About Us", to: "/aboutus", icon: <User size={20} /> },
   { name: "Podcast", to: "/podcast", icon: <Mic size={20} /> },
   { name: "Course", to: "/courses", icon: <BookOpen size={20} /> },
+  { name: "Book", to: "/book", icon: <BookOpen size={20} /> },
   { name: "1:1 Consultation Call", to: "/consultation_call", icon: <Mail size={20} /> },
 ];
 
@@ -48,7 +50,7 @@ const Header: React.FC = () => {
            <Link
              key={link.to}
              to={link.to}
-             className={`text-lg font-medium transition-all duration-150 border-b-2 ${
+             className={`navigation text-lg font-medium transition-all duration-150 border-b-2 ${
                pathname === link.to
                  ? "text-[#1ec258] border-[#1ec258]"
                  : "text-gray-300 border-transparent hover:text-[#1ec258] hover:border-[#1ec258]"

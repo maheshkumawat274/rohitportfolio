@@ -8,7 +8,7 @@ But somewhere deep inside, I had a spark — a small interest in creating someth
 That first step — though small — changed everything.`;
 
   return (
-    <section className="bg-black py-4 md:py-16 px-4 md:px-20">
+    <section className="bg-black py-4 md:py-14 px-4 md:px-20">
       <div className="mx-auto flex flex-col lg:flex-row items-center gap-10">
         
         {/* Left: Image */}

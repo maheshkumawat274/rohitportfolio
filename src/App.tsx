@@ -12,6 +12,7 @@ import ConsultationPage from "./pages/consultation";
 import  { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import BookPage from "./pages/book";
 function App() {
   useEffect(() => {
     AOS.init({ duration: 800, once: false });
@@ -28,6 +29,7 @@ function App() {
             <Route path="/aboutus" element={<AboutPage  />} />
             <Route path="/podcast" element={<PodcastPage />} />
             <Route path="/courses" element={<Coursespage />} />
+            <Route path="/book" element={<BookPage/>}/>
             <Route path="/consultation_call" element={<ConsultationPage />} />
           </Routes>
         </main>

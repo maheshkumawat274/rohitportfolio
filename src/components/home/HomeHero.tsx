@@ -9,11 +9,11 @@ const HomeHero: React.FC = () => {
     
     <section
       className="w-full  h-[70vh] md:h-[80vh] flex items-center bg-cover bg-[70%_center] lg:bg-center"
-      style={{ backgroundImage: "url('/imgs/home.jpg')",
+      style={{ backgroundImage: "url('/imgs/homeMain.png')",
         backgroundPosition: 'top center'
        }} // 👈 your background img
     >
-     <div className="absolute h-[80.5vh] md:h-[90.5vh] inset-0 bg-gradient-to-r from-black/100 via-black/40 to-transparent"></div>
+     {/* <div className="absolute h-[80.5vh] md:h-[90.5vh] inset-0 bg-gradient-to-r from-black/100 via-black/40 to-transparent"></div> */}
 
       <div className="relative flex-1 px-2 sm:px-18">
           <div className="text-[#1ec258] text-2xl mb-2 px-2">Hello, I'm</div>
