@@ -13,6 +13,9 @@ import  { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import BookPage from "./pages/book";
+import PrivacyPolicy from "./components/policy/PrivacyPolicy";
+import TermsConditions from "./components/policy/TermConditions";
+import NoRefundPolicy from "./components/policy/RefundCancellation";
 function App() {
   useEffect(() => {
     AOS.init({ duration: 800, once: false });
@@ -31,6 +34,9 @@ function App() {
             <Route path="/courses" element={<Coursespage />} />
             <Route path="/book" element={<BookPage/>}/>
             <Route path="/consultation_call" element={<ConsultationPage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+            <Route path="/terms-conditions" element={<TermsConditions/>}/>
+            <Route path="/refund_returns" element={<NoRefundPolicy/>}/>
           </Routes>
         </main>
         <FooterPage />

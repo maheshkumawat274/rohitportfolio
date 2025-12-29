@@ -87,6 +87,10 @@ const Footer: React.FC = () => {
               <li><Link to="/courses" className="hover:underline">New Courses</Link></li>
               <li><Link to="/podcast" className="hover:underline">Podcast</Link></li>
               <li><Link to="/consultation_call" className="hover:underline">1:1 Consultation Call</Link></li>
+              <li><Link to='/privacy-policy' className="hover:underline">Privacy Policy</Link></li>
+              <li><Link to='/terms-conditions' className="hover:underline">Terms and Conditions</Link></li>
+              <li><Link to='/refund_returns' className="hover:underline">Refund & Cancellation Policy
+</Link></li>
             </ul>
           </div>
 
@@ -101,7 +105,7 @@ const Footer: React.FC = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <MdEmail className="text-lg" />
-                    <span>info@rohitprashar.in</span>
+                    <span>info@rohitprashar.com</span>
                   </div>
                 </div>
               <div className="py-2">

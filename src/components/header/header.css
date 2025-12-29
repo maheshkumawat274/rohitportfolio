@@ -1,8 +1,34 @@
 .navigation{
-  font-size: 20px;
+  font-size: 15px;
 }
-@media (max-width:1200px) and (min-width:1024px) {
+@media (max-width:1215px) and (min-width:1024px) {
   .navigation{
-    font-size: 12px;
+    font-size: 10px;
   }
+}
+.upcoming-gradient {
+  display: inline-flex;
+  background: linear-gradient(
+    270deg,
+    #1ec258,
+    #00f0ff,
+    #ff00cc,
+    #1ec258
+  );
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 4s ease infinite;
+}
+
+.upcoming-gradient .char {
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
