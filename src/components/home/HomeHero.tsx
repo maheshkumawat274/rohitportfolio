@@ -5,30 +5,29 @@ import Homebtn1 from '../btns/Homebtn1';
 const HomeHero: React.FC = () => {
   return (
     <section
-      className="relative w-full h-[70vh] md:h-[80vh] flex items-center bg-cover bg-[70%_center] lg:bg-center"
+      className="relative w-full h-[70vh] md:h-[80vh] flex items-end sm:items-center bg-cover bg-[70%_center] lg:bg-center py-2"
       style={{
-        backgroundImage: "url('/imgs/rohitnewhero.JPEG')",
+        backgroundImage: "url('/imgs/rohitnewhero.png')",
         backgroundPosition: 'top center'
       }}
     >
-      {/* LEFT DARK OVERLAY */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+      
 
       {/* CONTENT */}
       <div className="relative flex-1 px-2 sm:px-18">
-        <div className="text-[#1ec258] text-2xl mb-2 px-2">
+        <div className="text-[#1ec258] text-2xl px-2">
           Hello, I'm
         </div>
 
-        <h1 className="text-5xl md:text-8xl lg-text-5xl font-bold text-gray-100 leading-tight mb-4">
+        <h1 className="text-5xl md:text-8xl lg-text-5xl font-bold text-gray-100 leading-tight mb-0 sm:mb-4">
           Rohit Prashar
         </h1>
 
-        <p className="text-2xl md:text-4xl text-gray-200 mb-2">
+        <p className="text-2xl md:text-4xl text-gray-200 mb-1 sm:mb-2">
           Build Your Digital Presence with Rohit Prashar
         </p>
 
-        <p className="text-md md:text-xl text-gray-300 mb-8">
+        <p className="text-md md:text-xl text-gray-300 mb-2 sm:mb-8">
           With 4 Years of Experience in Content Creation
         </p>
 
