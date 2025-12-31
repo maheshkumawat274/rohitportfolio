@@ -67,5 +67,37 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      var url = 'https://whatsapp-chat-widget.web.app/whatsapp-chat-widget.js';
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.async = true;
+      script.src = url;
+      var chatOptions = {
+        "buttonSetting":{
+          "ctaText":"Chat with us",
+          "positionIsBottomRight":true,
+          "backgroundColor":"#37c968",
+          "borderRadius":40,
+        },
+        "widgetSetting":{
+          "companyName":"Rohit Prashar",
+          "companySubTitle":"Grow your business",
+          "companyImg":"https://telecrm.in/assets/images/Profile-image.jpg",
+          "phoneNumber":"918252587182",
+          "welcomeText":"Hi there!\nHow can I help you?",
+          "userSentText":"Hello, I have a question about  {{page_title}}",
+          "showByDefault": false,
+          "ctaText":"Start chat now",
+          "headerBackgroundColor":"#0a5f54",
+          "borderRadius":40,
+        }
+      };
+      script.onload = function() {
+          createWhatsappChatWidget(chatOptions);
+      };
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(script, firstScriptTag);
+    </script>
   </body>
 </html>

@@ -44,8 +44,8 @@ import React, { useState } from 'react';
   return (
     
     <section className='min-h-screen bg-black pt-14'>
-      <h1 className="text-[60px] sm:text-[120px] mx-[20px] sm:[100px] lg:mx-[270px] font-bold leading-none">Contact Us</h1>
-      <div className="  text-white flex flex-col px-6 py-12 justify-center items-center">
+      <h1 className="text-[60px] sm:text-[120px] mx-[20px] sm:[100px] lg:mx-[200px] font-bold leading-none">Contact Us</h1>
+      <div className="  text-white flex flex-col px-4 py-6 justify-center items-center">
         
       <div className="flex flex-col md:flex-row justify-center items-start gap-16 mt-10 w-full max-w-6xl">
         {/* Left Section */}
