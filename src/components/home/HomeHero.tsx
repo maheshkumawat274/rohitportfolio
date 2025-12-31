@@ -1,15 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Homebtn1 from '../btns/Homebtn1';
+import './HomeHero.css';
 
 const HomeHero: React.FC = () => {
   return (
     <section
-      className="relative w-full h-[70vh] md:h-[80vh] flex items-end sm:items-center bg-cover bg-[70%_center] lg:bg-center py-2"
-      style={{
-        backgroundImage: "url('/imgs/rohitnewhero.png')",
-        backgroundPosition: 'top center'
-      }}
+      className="home-hero relative w-full h-[70vh] md:h-[90vh] flex items-end sm:items-center bg-cover bg-[70%_center] lg:bg-center py-2"
+      style={{ backgroundImage: "url('/imgs/rohitnewhero.png')" }}
     >
       
 

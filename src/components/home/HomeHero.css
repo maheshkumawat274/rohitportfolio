@@ -1,0 +1,9 @@
+.home-hero {
+  background-position: top center;
+}
+
+@media (max-width: 767px) {
+  .home-hero {
+    background-position: 70% center;
+  }
+}
