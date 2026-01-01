@@ -84,6 +84,22 @@ const Footer: React.FC = () => {
             <h4 className="font-semibold text-green-500 mb-1 text-xl sm:text-2xl">Useful Links</h4>
             <ul className="text-lg space-y-1">
               <li><Link to="/aboutus" className="hover:underline">About Us</Link></li>
+              <li>
+                <a
+                  href="https://podcast.rohitprashar.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="navigation text-lg font-medium text-gray-300 border-b-2 border-transparent hover:text-[#1ec258] hover:border-[#1ec258]"
+                >
+                  <span className="upcoming-gradient">
+                    {"Exclusive Podcasts".split("").map((char, i) => (
+                      <span key={i} className="char">
+                        {char === " " ? "\u00A0" : char}
+                      </span>
+                    ))}
+                  </span>
+                </a>
+              </li>
               <li><Link to="/courses" className="hover:underline">New Courses</Link></li>
               <li><Link to="/podcast" className="hover:underline">Podcast</Link></li>
               <li><Link to="/consultation_call" className="hover:underline">1:1 Consultation Call</Link></li>
